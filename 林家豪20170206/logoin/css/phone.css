@@ -2,3 +2,5 @@ html{font-size: 100px}
 @media screen and (min-width: 320px) {html{font-size:0.42667rem}}
 @media screen and (min-width: 360px) {html{font-size:0.48rem}}
 @media screen and (min-width: 375px) {html{font-size:0.5rem}}
+@media screen and (min-width: 412px) {html{font-size:0.549333rem}}
+@media screen and (min-width: 414px) {html{font-size:0.552rem}}
