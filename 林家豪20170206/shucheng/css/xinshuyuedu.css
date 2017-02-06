@@ -1,0 +1,52 @@
+@import url(phone.css);
+ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
+a{text-decoration: none}
+img{border: none}
+*{box-sizing: border-box}
+body{font-family: "苹方 常规";background: #fafafa}
+@font-face {
+    font-family: 'iconfont';  /* project id 226032 */
+    src: url('//at.alicdn.com/t/font_mj1qw9nmbq589f6r.eot');
+    src: url('//at.alicdn.com/t/font_mj1qw9nmbq589f6r.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_mj1qw9nmbq589f6r.woff') format('woff'),
+    url('//at.alicdn.com/t/font_mj1qw9nmbq589f6r.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_mj1qw9nmbq589f6r.svg#iconfont') format('svg');
+}
+.header{width: 100%;height: 140px;background: #29a6dc;position: relative;border: 1px solid #29a6dc}
+.back{width: 44px;height:44px;background: #fff;border-radius: 50%;border: 2px solid #0b6ebf;position: absolute;text-align: center;line-height:34px;font-size:40px;color: #40afdf;top:68px;left: 24px}
+.wodeshujia{width:230px;height: 38px;color: #fff;font-size:36px;margin: 0 auto;margin-top: 60px; }
+.henggang{width: 34px;height: 3px;margin: 0 auto;margin-top: 8px}
+.zucheng1{width: 3px;height: 3px;background: #fff;border-radius: 50%;float: left}
+.zucheng3{width: 3px;height: 3px;background: #fff;border-radius: 50%;float: left}
+.zucheng2{width: 28px;height: 1px;background: #fff;float: left;margin-top: 1px}
+.english{width:170px;height: 13px;margin: 0 auto;font-size: 12px;color:#a3e3ff;margin-top: 6px}
+.fangdajing{width: 44px;height: 44px;border:2px solid #076cbe;background: #fff;position: absolute;top:68px;right:24px;border-radius: 50%;font-size:20px;text-align: center;line-height: 40px;color: #40b0e0;font-family: iconfont}
+.toubu{width:571px;height: 84px;background: #2a3340;padding:7px 11px;border-radius: 84px;margin: 0 auto;margin-top:16px  }
+.toubu1{width: 165px;height: 70px;float: left;background: #2a3441;margin-right: 17px;border-radius: 70px;position: relative}
+.yingwen{color: #fff;font-size: 12px;height:12px;width:120px;text-align: center;margin: 0 auto;margin-top: 4px}
+.hanzi{color: #fff;font-size:24px;height:24px;width: 100px;text-align: center;margin: 0 auto;margin-top:12px}
+.dian1{width: 3px;height: 3px;border-radius: 50%;background: #fff;position: absolute;top:31px;left:12px}
+.dian2{width: 3px;height: 3px;border-radius: 50%;background: #fff;position: absolute;top:31px;left:18px}
+.dian3{width: 3px;height: 3px;border-radius: 50%;background: #fff;position: absolute;top:31px;left: 128px}
+.dian4{width: 3px;height: 3px;border-radius: 50%;background: #fff;position: absolute;top:31px;left: 134px}
+.gang{width: 3px;height: 59px;margin-top: 6px;margin-right: 17px;float: left}
+.gang1{width: 3px;height: 3px;background: #fff;border-radius: 50%;}
+.gang2{width: 1px;height: 53px;background: #fff;margin-left: 1px;}
+.toubu2{;background: #29a6dc;border: 1px solid #fff}
+.toubu3{margin-right: 0;background: #2a3441;border: none;width: 120px}
+.content{width: 100%;height: 372px;background: #fff;box-shadow: 0 0 5px 5px #ccc;margin-top: 16px;border: 1px solid #fff}
+.neirong{width: 692px;height: 350px;margin: 0 auto;margin-top: 10px}
+.neirong-l{width: 246px;height: 350px;background: url(../images/fuzhuang_03.png) no-repeat;background-size: contain;float: left}
+.neirong-r{width: 400px;height: 350px;float: right}
+.neirong1{font-size: 28px;color: #333}
+.neirong2{font-size: 16px;color: #999}
+.neirong3{font-size: 22px;color: #666}
+.neirong4{width: 410px;height: 99px;margin-top: 34px}
+.neirong4-l{width: 169px;height: 100px;float: left;margin-left: 20px}
+.item1{font-size: 20px;color: #666}
+.item3{font-size:30px;color:#ffd800;font-family: iconfont }
+.neirong4-r{width: 187px;height: 57px;text-align: center;line-height: 57px;font-size:18px;color: #fff;border-radius: 57px;float: right;margin-top:36px;margin-right: 11px;font-family: iconfont;background: #29a6dc;position: relative  }
+.dian7{width: 6px;height: 6px;border-radius: 50%;background: #fff;position: absolute;top:26px;left:8px}
+.dian8{width: 6px;height: 6px;border-radius: 50%;background: #fff;position: absolute;top:26px;left:167px}
+
+

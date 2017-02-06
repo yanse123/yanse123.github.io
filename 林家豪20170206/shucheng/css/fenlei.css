@@ -1,0 +1,55 @@
+@import url(phone.css);
+ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
+a{text-decoration: none}
+img{border: none}
+*{box-sizing: border-box}
+body{font-family: "苹方 常规";background: #f2f2f2}
+@font-face {
+    font-family: 'iconfont';  /* project id 226032 */
+    src: url('//at.alicdn.com/t/font_p4v0m0h5hgzumcxr.eot');
+    src: url('//at.alicdn.com/t/font_p4v0m0h5hgzumcxr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_p4v0m0h5hgzumcxr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_p4v0m0h5hgzumcxr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_p4v0m0h5hgzumcxr.svg#iconfont') format('svg');
+}
+.header{width: 100%;height:140px;background: #29a6dc;border: 1px solid #29a6dc;position: relative }
+.toubu{width:571px;height: 84px;background: #2a3340;padding:7px 11px;border-radius: 84px;margin: 0 auto;margin-top: 48px  }
+.toubu1{width: 165px;height: 70px;background: #2a3441;float: left;margin-right: 17px;border-radius: 70px;position: relative}
+.yingwen{color: #fff;font-size: 12px;height:12px;width: 100px;text-align: center;margin: 0 auto;margin-top: 4px}
+.hanzi{color: #fff;font-size:24px;height:24px;width: 100px;text-align: center;margin: 0 auto;margin-top:12px}
+.dian1{width: 3px;height: 3px;border-radius: 50%;background: #fff;position: absolute;top:31px;left: 17px}
+.dian2{width: 3px;height: 3px;border-radius: 50%;background: #fff;position: absolute;top:31px;left: 23px}
+.dian3{width: 3px;height: 3px;border-radius: 50%;background: #fff;position: absolute;top:31px;left: 113px}
+.dian4{width: 3px;height: 3px;border-radius: 50%;background: #fff;position: absolute;top:31px;left: 119px}
+.gang{width: 3px;height: 59px;margin-top: 6px;margin-right: 17px;float: left}
+.gang1{width: 3px;height: 3px;background: #fff;border-radius: 50%;}
+.gang2{width: 1px;height: 53px;background: #fff;margin-left: 1px;}
+.toubu2{background: #2a3441;border: none}
+.toubu3{margin-right: 0;background: #29a6dc;border: none;width:140px;border: 1px solid #fff}
+.fangdajing{width: 44px;height: 44px;border:2px solid #076cbe;background: #fff;position: absolute;top:68px;right:24px;border-radius: 50%;font-size:20px;text-align: center;line-height: 40px;color: #40b0e0;font-family: iconfont}
+.wangluo{width: 100%;height: 60px;background: #ace1f8;box-shadow:0 5px 5px #bdcdd4 }
+.wenzi{width: 700px;height: 60px;margin: 0 auto;text-align: left;line-height:60px;color: #666;font-size: 18px}
+.tupian{color: #29a6dc;font-size: 40px;font-family: iconfont}
+.nvsheng{width: 137px;height: 37px;color: #29a6dc;font-size: 22px;line-height: 37px;font-weight: bold;margin-top: 30px}
+.zhuanqu{width: 700px;height: 37px;margin: 0 auto}
+.diankuang{width: 700px;height:22px;margin: 0 auto}
+.diandiankuang{width:550px;height: 22px;border-bottom:4px dotted #e0e0e0;margin-left: 30px  }
+.neirongkuang{width: 100%;height: 100px;box-shadow: 0 30px 50px #dedede;margin-top: 10px;border: 1px solid rgba(242,242,242,0) }
+.neirong{width: 658px;height: 88px;display: flex;justify-content: space-between;margin:0 auto;margin-top: 12px}
+.item{width: 203px;height: 88px;background: #29a5db;color: #fff;text-align: center;line-height: 88px;font-size: 32px;position: relative}
+.yuanquan{width: 6px;height: 6px;border-radius: 50%;position: absolute;top:4px;left:4px;background: #fff}
+.jianbian{width: 16px;height: 16px;position: absolute;top:0;right: 0;background-image: linear-gradient(45deg,#53c2f2 0,#53c2f2 50%,transparent 0),linear-gradient(45deg,#f2f2f2 50%,#f2f2f2 100%,transparent 0) }
+.item4{background: #53c2f2}
+.jianbian1{width: 16px;height: 16px;position: absolute;top:0;right: 0;background-image: linear-gradient(45deg,#29a5db 0,#29a5db 50%,transparent 0),linear-gradient(45deg,#f2f2f2 50%,#f2f2f2 100%,transparent 0) }
+.wangluo1{margin-top: 35px}
+.footer{width: 100%;height: 100px;padding:2px 0;background: #151c2b;margin-top:100px }
+.item1{width: 33%;height: 96px;border-right: 1px solid #717171;background: #0c1019;float: left}
+.item2{width: 33%;height: 96px;border-right: 1px solid #717171;background: #151c2b;float: left}
+.item3{width: 33%;height: 96px;background: #151c2b;float: left}
+.shujia{width: 47px;height: 45px;margin: 0 auto;margin-top: 9px;color: #fff;font-size:44px;font-family: iconfont}
+.shujiazi{width: 47px;height: 24px;margin: 0 auto;margin-top: 13px;color: #fff;font-size: 22px}
+
+
+
+
+

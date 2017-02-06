@@ -1,0 +1,65 @@
+@import url(phone.css);
+ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
+a{text-decoration: none}
+img{border: none}
+*{box-sizing: border-box}
+body{font-family: "苹方 常规";background: #fafafa}
+@font-face {
+    font-family: 'iconfont';  /* project id 226032 */
+    src: url('//at.alicdn.com/t/font_9jfn95gmzfjvpldi.eot');
+    src: url('//at.alicdn.com/t/font_9jfn95gmzfjvpldi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_9jfn95gmzfjvpldi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_9jfn95gmzfjvpldi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_9jfn95gmzfjvpldi.svg#iconfont') format('svg');
+}
+.header{width: 100%;height: 140px;background: #29a6dc;position: relative;border: 1px solid #29a6dc}
+.wodeshujia{width: 150px;height: 38px;color: #fff;font-size:36px;margin: 0 auto;margin-top: 60px; }
+.henggang{width: 34px;height: 3px;margin: 0 auto;margin-top: 8px}
+.zucheng1{width: 3px;height: 3px;background: #fff;border-radius: 50%;float: left}
+.zucheng3{width: 3px;height: 3px;background: #fff;border-radius: 50%;float: left}
+.zucheng2{width: 28px;height: 1px;background: #fff;float: left;margin-top: 1px}
+.english{width: 100px;height: 13px;margin: 0 auto;font-size: 12px;color:#a3e3ff;margin-top: 6px}
+.banner{width: 740px;height: 321px;margin: 0 auto;margin-top: 42px;position: relative;border: 1px solid #fafafa}
+.houmian{width: 740px;height: 288px;padding:2px;background: #fff;border-radius: 10px;margin-top:16px;box-shadow: 0 0 5px 5px #ccc;}
+.houmian img{width: 736px;height: 284px;border-radius: 10px;}
+.qianmian{width: 667px;height: 321px;padding: 2px;background: #fff;border-radius: 10px;position: absolute;top:0;left:20px;box-shadow: 0 0 5px 5px #ccc;}
+.qianmian img{width: 663px;height: 317px;border-radius: 10px;}
+.dian{width: 48px;height: 8px;margin: 24px auto;display: flex;justify-content: space-between}
+.dian1{width: 8px;width: 8px;background: #fafafa;border: 1px solid #48affe;border-radius: 50%}
+.dian1:hover{background: #48affe}
+.zuixin{width: 740px;height: 58px;margin: 0 auto;margin-bottom:33px }
+.zuixin-t{width: 740px;height: 34px}
+.xing{width: 34px;height: 34px;border-radius: 50%;background: #ffc63e;color:#fafafa;font-size: 30px;text-align:center;line-height: 30px;font-family: iconfont;float: left}
+.zi{width:123px;height: 34px;margin:0 9px;color: #333;font-size: 30px;float: left }
+.caise{width: 4px;height: 4px;background: #fe58aa;border-radius: 50%;margin-top: 30px;margin-right: 3px;float: left}
+.caise1{width: 4px;height: 4px;background: #58fedd;border-radius: 50%;margin-top: 30px;margin-right: 3px;float: left}
+.caise2{width: 4px;height: 4px;background: #ffc63e;border-radius: 50%;margin-top: 30px;margin-right: 3px;float: left}
+.zuixin-b{width:200px;height: 18px;color: #666;margin-left: 46px;font-size: 16px;line-height: 18px;margin-top:5px }
+.maomi{width: 740px;height: 360px;margin: 0 auto;display: flex;justify-content: space-between;margin-bottom:33px }
+.baiban{width: 250px;height: 360px;background: #fff;border-radius: 10px;box-shadow: 0 0 5px 5px #ccc;position: relative}
+.wenzi1{width: 137px;height: 24px;margin: 0 auto;margin-top: 290px;font-size: 22px;color:#333}
+.wenzi2{width: 144px;height: 15px;margin: 0 auto;margin-top:5px;font-size:14px;color:#999}
+.tupian{width: 210px;height: 280px;background: #fff;padding: 1px;position: absolute;top:-15px;left:18px;border-radius: 5px}
+.tupian img{width: 208px;height: 278px;border-radius: 5px}
+.liuli{width:740px;height: 221px;margin: 0 auto;margin-bottom: 16px;background: #fff;box-shadow: 0 0 5px 5px #ccc;padding: 11px}
+.liuli img{white:138px;height: 199px;display: block;float: left;margin-bottom:16px }
+.neirong{width:526px;height: 199px;float: right;margin-right:30px}
+.neirong1{width:260px;height: 28px;color: #333;margin-top: 6px;font-size: 28px}
+.neirong2{width: 447px;height: 16px;color: #999;margin-top: 10px;font-size: 16px}
+.neirong3{width: 447px;height:4px;font-size: 4px;color: #999;margin-top: 10px;font-family: iconfont }
+.neirong4{width: 380px;height: 22px;font-size: 22px;color: #666;margin-top:15px;}
+.neirong5{width: 526px;height:38px;font-size: 14px;color: #666;margin-top: 15px}
+.neirong6{width: 522px;height:44px}
+.jindu{width:80px;height: 16px;float: left;color: #999;font-size: 16px;margin-top:18px}
+.baifen{font-size: 16px;color: #4ec0ed}
+.jindutiao{width: 170px;height: 6px;float: left;margin-left: 13px;margin-top: 28px;border-radius: 6px;background: #d4d4d4}
+.tiaotiao{width: 60px;height: 6px;border-radius: 6px;background:#94d1e6 }
+.button{width: 150px;height: 44px;background:#29a5db;color:#fff;font-size: 22px;float: right;border-radius: 44px }
+.footer{width: 100%;height: 100px;padding:2px 0;background: #151c2b }
+.item1{width: 33%;height: 96px;border-right: 1px solid #717171;background: #0c1019;float: left}
+.item2{width: 33%;height: 96px;border-right: 1px solid #717171;background: #151c2b;float: left}
+.item3{width: 33%;height: 96px;background: #151c2b;float: left}
+.shujia{width: 47px;height: 45px;margin: 0 auto;margin-top: 9px;color: #fff;font-size:44px;font-family: iconfont}
+.shujiazi{width: 47px;height: 24px;margin: 0 auto;margin-top: 13px;color: #fff;font-size: 22px}
+.fangdajing{width: 44px;height: 44px;border:2px solid #076cbe;background: #fff;position: absolute;top:68px;right:24px;border-radius: 50%;font-size:20px;text-align: center;line-height: 40px;color: #40b0e0;font-family: iconfont}
+

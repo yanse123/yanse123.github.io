@@ -1,0 +1,27 @@
+@import url(phone.css);
+ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
+a{text-decoration: none}
+img{border: none}
+*{box-sizing: border-box}
+body{font-family: "苹方 中等";background: #f2f2f2}
+@font-face {
+    font-family: 'iconfont';  /* project id 225859 */
+    src: url('//at.alicdn.com/t/font_h796ayd596647vi.eot');
+    src: url('//at.alicdn.com/t/font_h796ayd596647vi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_h796ayd596647vi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_h796ayd596647vi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_h796ayd596647vi.svg#iconfont') format('svg');
+}
+.header{width: 100%;height:295px;background: #29a6dc;border: 1px solid #29a6dc;position: relative;margin-bottom:59px}
+.denglu{width: 100%;height:36px;font-size: 36px;margin-top: 78px;color:#fff;text-align: center;line-height: 36px}
+.header img{width: 175px;height: 96px;margin: 0 auto;margin-top:37px;display: block}
+.back{width: 44px;height: 44px;background: #fff;border: 1px solid #076cbe;font-size:30px;text-align: center;border-radius: 50%;position: absolute;top:68px;left: 25px;color:#40afdf}
+.xuehao{width: 616px;height: 89px;padding: 22px 45px;color:#3abffd;text-align: left;line-height:46px;border: 1px solid #3a91fd;font-family: iconfont;margin: 0 auto;font-size:46px;border-radius: 89px;margin-bottom: 38px;background: #fff }
+.gonghao{width: 400px;height: 30px;font-size: 30px;color:#999;margin-right:50px;margin-top: 5px;float: right}
+.xiaozi{width: 519px;height: 25px;margin: 0 auto;margin-bottom: 96px}
+.yaoshi{color: #36bfff;font-size: 28px;font-family: iconfont}
+.zhaohui2{width: 165px;height: 26px;color: #666;font-size:20px;float: right;}
+.like{width: 564px;height: 68px;margin: 0 auto;border-radius:68px;background: #3abffd;padding: 29px 0;color: #fff;text-align: center;line-height:24px;font-size:28px;display: block }
+.diandian{width: 564px;height: 68px;margin: 0 auto;position: relative}
+.dian1{width: 6px;height: 6px;background: #fff;position: absolute;top:31px;left: 29px;border-radius: 50%}
+.dian2{width: 6px;height: 6px;background: #fff;position: absolute;top:31px;right: 29px;border-radius: 50%}
