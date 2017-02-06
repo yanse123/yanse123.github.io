@@ -1,29 +1,29 @@
 @import url(phone.css);
 ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
-a{text-decoration: none}
+a{text-decoration: none;display: block;}
 img{border: none}
 *{box-sizing: border-box}
 body{font-family: "苹方 中等";background: #f2f2f2}
 @font-face {
     font-family: 'iconfont';  /* project id 225859 */
-    src: url('//at.alicdn.com/t/font_h796ayd596647vi.eot');
-    src: url('//at.alicdn.com/t/font_h796ayd596647vi.eot?#iefix') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_h796ayd596647vi.woff') format('woff'),
-    url('//at.alicdn.com/t/font_h796ayd596647vi.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_h796ayd596647vi.svg#iconfont') format('svg');
+    src: url('http://at.alicdn.com/t/font_h796ayd596647vi.eot');
+    src: url('http://at.alicdn.com/t/font_h796ayd596647vi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_h796ayd596647vi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_h796ayd596647vi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_h796ayd596647vi.svg#iconfont') format('svg');
 }
-.header{width: 100%;height: 475px;background: #29a6dc;border: 1px solid #29a6dc}
-.denglu{width: 100%;height:36px;font-size: 36px;margin-top: 78px;color:#fff;text-align: center;line-height: 36px}
-.header img{width: 175px;height: 96px;margin: 0 auto;margin-top: 105px;display: block}
-.mingyan{width: 700px;height: 64px;margin: 0 auto;margin-top: 146px;color: #0a196b;font-size: 24px;margin-bottom: 100px}
-.zuozhe{width: 150px;color: #0a196b;font-size: 24px;margin-left: 478px}
-.xuehao{width: 616px;height: 89px;padding: 22px 45px;color:#3abffd;text-align: left;line-height:46px;border: 1px solid #3a91fd;font-family: iconfont;margin: 0 auto;font-size:46px;border-radius: 89px;margin-bottom: 38px;background: #fff }
-.gonghao{width: 400px;height: 30px;font-size: 30px;color:#999;margin-right:50px;margin-top: 5px;float: right}
-.xiaozi{width: 519px;height: 25px;margin: 0 auto;margin-bottom: 96px}
-.zhaohui1{width: 165px;height: 26px;color: #666;font-size:20px;float: left;}
-.yaoshi{color: #36bfff;font-size: 28px;font-family: iconfont}
-.zhaohui2{width: 165px;height: 26px;color: #666;font-size:20px;float: right;}
-.like{width: 564px;height: 68px;margin: 0 auto;border-radius:68px;background: #3abffd;padding: 29px 0;color: #fff;text-align: center;line-height:24px;font-size:28px;display: block }
-.diandian{width: 564px;height: 68px;margin: 0 auto;position: relative}
-.dian1{width: 6px;height: 6px;background: #fff;position: absolute;top:31px;left: 29px;border-radius: 50%}
-.dian2{width: 6px;height: 6px;background: #fff;position: absolute;top:31px;right: 29px;border-radius: 50%}
+.header{width: 100%;height: 4.75rem;background: #29a6dc;border: 0.01rem solid #29a6dc}
+.denglu{width: 100%;height:0.36rem;font-size:0.36rem;margin-top: 0.78rem;color:#fff;text-align: center;line-height: 0.36rem}
+.header img{width: 1.75rem;height: 0.96rem;margin: 0 auto;margin-top: 1.05rem;display: block}
+.mingyan{width:7rem;height: 0.64rem;margin: 0 auto;margin-top: 1.46rem;color: #0a196b;font-size: 0.24rem;margin-bottom: 1rem}
+.zuozhe{width: 1.5rem;color: #0a196b;font-size: 0.24rem;margin-left: 4.78rem}
+.xuehao{width: 6.16rem;height: 0.89rem;padding: 0.22rem 0.45rem;color:#3abffd;text-align: left;line-height:0.46rem;border: 0.01rem solid #3a91fd;font-family: iconfont;margin: 0 auto;font-size:0.46rem;border-radius: 0.89rem;margin-bottom: 0.38rem;background: #fff }
+.gonghao{width: 4rem;height: 0.3rem;font-size: 0.3rem;color:#999;margin-right:0.5rem;margin-top: 0.05rem;float: right}
+.xiaozi{width: 5.19rem;height: 0.25rem;margin: 0 auto;margin-bottom: 0.96rem}
+.zhaohui1{width: 1.65rem;height: 0.26rem;color: #666;font-size:0.2rem;float: left;}
+.yaoshi{color: #36bfff;font-size: 0.28rem;font-family: iconfont}
+.zhaohui2{width: 1.65rem;height: 0.26rem;color: #666;font-size:0.2rem;float: right;}
+.like{width: 5.64rem;height: 0.68rem;margin: 0 auto;border-radius:0.68rem;background: #3abffd;padding: 0.29rem 0;color: #fff;text-align: center;line-height:0.24rem;font-size:0.28rem;display: block }
+.diandian{width: 5.64rem;height: 0.68rem;margin: 0 auto;position: relative}
+.dian1{width: 0.06rem;height: 0.06rem;background: #fff;position: absolute;top:0.31rem;left: 0.29rem;border-radius: 50%}
+.dian2{width: 0.06rem;height: 0.06rem;background: #fff;position: absolute;top:0.31rem;right: 0.29rem;border-radius: 50%}
