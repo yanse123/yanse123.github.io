@@ -1,0 +1,759 @@
+通道抠图
+1.简单轮廓
+2.复杂轮廓
+3.清晰轮廓
+
+
+  清晰轮廓    
+   路径+调整边缘                            混合剪贴法：图层混合模式+剪切蒙版（去杂边）
+图层蒙版只有黑白灰半透明
+  图形转型装：1  图形变选区   2  选中路径面板  点下方的路径     3 点图层全区   4 点钢笔  路径转形状  5
+
+
+黑色—透明   白色—还原   灰色—半透明     反向：Ctrl+I    色阶：ctrl+L
+
+
+1  复制原图   
+2  点通道   照对比度最大的
+3   调整  
+4   复制通道   转成选区    然后点最上面的RGB
+5 返回图层面案  添加蒙版  
+
+
+6  调整          
+
+
+色相饱和度   ctrl+U
+    
+
+
+  图像→模式   换RGB    CMYK   证件照背景  红色：  0 100 100 10   蓝色：100 0 0 10
+
+ 图片去色     图像→去色          Ctrl+alt+B      Ctrl+U   调暗
+
+  曲线  ctrl+M
+
+
+ 屏显  72ppi  像素PX      （字体  像素）   Ctrl+K里面设置
+ 印刷  300ppi  毫米mm      （字体  点）
+
+
+文字工具：
+点文字：适合于两行以内
+段落文字：适合于三行以上的
+
+
+行间距=字体大小的（1.5到2倍）之间的偶数
+网页中最小字体   12PX
+
+字间距=0 40 60
+
+
+段间距   回车 
+
+网页当中  12像素  美国英语  无  其他  都不能设置无   	
+
+
+段落文字避免“孤儿寡母”    必须设置避头尾！   连字   两端对齐！	
+英文 字体比中文小2点         
+段落英文对齐   左对齐  参差不齐！
+
+菱形文字（居中对齐）
+英文也是一样哒
+
+文字又见转型状   可换颜色   小黑小白   可变形文字调整调整锚点，文字不可修改字的内容
+PS  图像-旋转
+  AI可以转PS格式   
+水平复制：先Alt复制一个 然后C+D连续复制
+原位复制：C+C然后C+F
+
+撤销一步C+Z  还原C+S+Z
+
+右击 编组  再右击  可以取消编组
+
+圆角   鼠标不要送  上下调整圆角  左右调整极限
+剪贴蒙版：图形在上  图片在下  全部选中  然后C+7
+线框模式  C+Y
+旋转复制：先画圆找圆心  画圆角矩形  对齐  选中圆角矩形  点旋转工具  点A拖圆心  弹出一个窗口  输入角度（看预览）然后C+D
+ 
+750*1334ppi   72   rgb 最小字体 24
+
+1600ppi
+
+
+
+
+   
+AI   打印出血  3mm   
+RGB换CMYK   文件里面有文档颜色模式  在里面切换导出  一般选择RGB   使用画板  只导画板的内容      1，3  只导13   1-3 导1到3	
+
+图片放入AI中 必须嵌入
+锁定  C+2
+阿里巴巴矢量图标库
+先选中—对象-扩展
+对象—混合—替换混合轴
+转曲：选中文字 点对象里的扩展 
+剪影图片：先图面描摹 然后扩展  然后魔棒删除不要的东西
+麦克风：1画一个小圆（小一点 只要填充不要描边）  2选中点效果里面的扭曲和变换里面的变换   水平8   副本30  3.选中点效果里面的扭曲和变换里面的变换   水平4 垂直4   副本1  4.选中点效果里面的扭曲和变换里面的变换  垂直8  副本40   5.对象-扩展外观6.效果-变形-鱼眼  把弯曲变成100%   6.继续效果-突出   弯曲100%
+
+
+
+
+
+
+网页设计：
+1.收集用户需求
+2.分析需求
+3.网站功能定位
+4.前端布局  div+css
+5.后台的搭建  PHP 
+5.录入网站信心
+
+导航栏：导航栏在网页中是一组超链接，链接的目的端是网页中重要的部分
+
+文件建立规范：
+外宽1920px    内宽1200px   RGB颜色   分辨率：72
+外宽1600px    内宽1200px（用这个）
+外宽1440px    内宽1000px
+
+字体规范：默认微软雅黑    默认英文字体   helve  三番
+标题18-20px
+小标题14px
+正文12px（最小文本）
+
+
+标题：重复 对比 亲密 对齐
+
+网页中导航高度呈双数像素  
+广告高度不要超过800px
+
+站酷  黄蜂 花瓣  behance
+
+
+
+网页的本质就是HTML       Native app   原生APP:1.每次获取最新功能需要升级  
+                                              2。安装包比较大  包括了UI内容 设计元素
+                                              3。手机用户无法上网也可以访问以前下载过的数据
+                                              4.可以调用手机终端的硬件设备和应用
+                          Web app  H5框架app：1.每次打开需要向云端索取UI数据   
+                                              2。手机用户无法上网则无法打开
+                                              3.安装包很小  只包括框架文件   其他的内容存放在云端
+                                              4.无需频繁更新Web运用
+                                               也称之为混合开发
+
+响应式：集中创建页面中图片排版大小，可以智能地根据用户手机的大小调整
+成本翻倍  不易管理  
+
+相应式有点：1.一次性开发，跨平台运行
+2.用浏览器打开，使用方便
+3.升级容易
+4.学习成本低
+5.发布一个数据  利于维护
+
+缺点：1.需要兼容很多设备，导致加载时间变长，代码比较累赘
+2.一定程度上改变了网站的原有结构
+
+使用环境不同
+操作媒介不同
+操作精度不同
+
+手持设备的特点：1.记忆负担尽量减小，尊重用户操作习惯
+2.操作界面精致，界面操作性高
+3.设计风格和版本的一致性
+4.页面刷新为主
+
+
+导航：1.一列2.二列        隐藏形式       下拉菜单形式      侧滑（抽屉）
+
+
+布局：1。布局不变  模块中的内容挤压-拉伸
+2.布局不变   模块中的内容换行-平铺
+3                        删减-增加
+4.布局改变   模块位置变换
+5.模块展示方式改变
+6.模块数量改变
+
+
+
+1.硬件操作习惯
+2.硬件规范
+3.功能的主次层级关系
+
+
+
+字体：24-40   萍方
+
+离边框20px
+
+
+
+投影：关掉全局光   角度90   距离<7  大小<15   颜色浅一点
+
+
+
+html：
+超文本标记语言
+ 基本结构
+<doctype html>
+<html>
+  <head></head>
+  <body>
+  </body>
+</html>
+
+
+
+1.新建一个html文件
+2.2+tab
+3.标签：1.<div>内容</div>  块标签   可以换行  
+        2.<b>内容</b>  行标签    不能换行  加粗
+        3.核心标签：<a herf=""></a>  两种写法：1.绝对地址  2.相对地址
+        4.图片标签：<img>   单标签   行内块级标签   src：表示资源路径
+        5.注释标签<!-- 内容  -->
+        属性的写法  <开始标签 属性="值"></结束标签>
+
+
+
+css：层叠样式表  适用于控制网络样式与信息分离的标记性语言  css3
+第一种使用方式：行内样式（把css样式写到html当中）    <div style="width:100px;height:100px;background:black;"></div>
+css基本属性
+width:宽度
+height：高度
+background  背景
+border  边框       border:宽度（width） 样式（style） 边框颜色（color）
+font-family:'字体样式'  ，“备用自体”
+font-size：12px;   字体大小  网页中一般12 14 16     em单位  当前所继承文字大小的倍数     rem单位    根元素（html）字体大小的倍数   也可以用于设置宽高
+color  定义文字颜色   rgba（x，x，x，透明度（0-1）   ）    
+font-weight：bold   定义文字加粗 small-caps  大写
+font-style：italic   文字倾斜
+font-variant  定义英文大小写     
+text-decoration    定义文本修饰   设置为none就是没有修饰   underline  下划线  line-through  删除线    overline  上划线
+text-align  定义文本的水平对齐方式  center  中间   right   右边
+line-height 定义文本的行高  用于实现垂直居中 和容器一样高
+span 无意义的行标签
+text-align：center  文字水平居中  right  右对齐 
+text-indent  文字缩进
+vertical-align   垂直   不能用于块元素
+display  转换属性   可以把一种元素转换为另一种属性
+    block   转化为块元素
+    inline  转化为行元素
+    inline-block 转换为行内块级元素
+    none   隐藏
+min-width    最小宽度
+max-width    最大宽度
+min-height   最小高度
+max-height   最大高度
+list-style   列表样式：1.定义列表标记（type）  square 小方块   circle   空心圆  disc  黑圆点  lower-roman  小写罗马字母   upper-roman  大写罗马字母 lower-alpha  小写字母顺序  decimal  数字顺序
+                       2.position  位置
+                       3. image  url（）引入图片
+
+
+visibility： 定义一个元素显示或者隐藏   1.hidden   隐藏  visible  显示  
+border-collapse   CSS里面合并边框
+table-layout：css里面表格固定
+opacity：0-1       透明度   0是完全透明   1是完全不透明 
+filter:(alpha(opacity=50)  加了一个透明度为50%的滤镜
+ 
+
+
+链接中放置图片
+  1.a标签没有宽高    a链接设置为display：block
+  2.高度由图片自动撑开会比图片高   img设置为display： 
+  3.在某些浏览器当中图片会自动出现边框  img设置为border：none
+
+
+盒子模型
+table   太乱
+用div+css  
+  利用块元素水平排列 纵向排列  嵌套排列相结合来完成网页布局的一种方式
+一个盒子真正所占的宽高   width+padding-left+padding-right+boder-left-width
+一个元素在没有设置宽高的时候   他的宽度自适应父元素     高度由子元素撑开  
+  ul   默认上下边距和内外边距
+  ul  去掉点  用  list-style：none  
+
+
+p 标签：默认上下外边距 
+
+h标签：默认上下外边距和字体加粗
+
+pre标签：默认上下外边距
+
+ body p pre ul h1 h2 h3 h4 h5 h5 ol dl dt dd   这些块元素要设置元素把默认属性清零
+
+行元素只设置外边距的时候只识别左右   设置内边距都识别 但不会影响其他行的元素
+
+行内块级元素   img   input  select     设置边距都跟着动
+
+1.margin  边距属性
+margin外边距属性
+margin-left margin-right margin-mutton margin-top     可以设置负值  
+相同位置的边距会合并  会使用较大的值    一个值表示四个方向 两个值表示上下和左右  三个值表示上 左右  下    设置四个值  上 右  下 左
+margin：0 auto；可以实现一个块的居中  
+
+2.padding  内边距属性    不可以设置负值 
+也可以设置四个方向 left right top botton
+
+3.float     脱离文档流   同级元素没有浮动属性会视它不见    
+浮动元素会在当前行显示  除非前面的元素也有浮动  他会进入到前一行元素的后面 
+left或right
+凡是需要在一行显示的盒子加float   不要随便乱加！
+浮动元素还是会受父元素的限制
+行元素加了float之后可以设置宽和高  或者用display设置为块元素也行           
+浮动元素在一行放不下的时候会自动换行  
+  
+clear属性   用于清除浮动的影响  left  right   both
+浮动元素不能把父元素高度撑开
+1.在浮动元素的后面增加一个div  设置clear：both
+2.给父元素设置 overflow：hidden；
+  
+overflow：对超出部分的处理  
+1.hidden  把超出部分隐藏掉
+2.scroll  超出的部分会出现滚动条
+3.auto    不超出正常显示，超出之后出现滚动条
+可以用overflow-x与overflow-y单独设置超出的部分
+ 
+  
+第二种方式：嵌入样式（把CSS规则样式写到一对style标签当中）
+<style>  选择器{属性；值；属性}</style>
+
+
+第三种方式：引入样式 （在head里写link标签    href里面写名字  ）
+
+
+第四种方法：倒入样式   在一个CSS文件里面写  @import url（导入另一个CSS的名字）
+
+优先级：行内样式>嵌入样式与引入样式与倒入样式谁在后面谁的优先级高
+
+background—image：url（）  引入背景
+background—repeat：no—repeat  不重复
+                    repea—x   在X轴显示我们   repea—y   在y轴显示
+background-position:  left   right   top   buttom  center           设置距离     可以设置像素   代表坐标
+                      设置一个 另一个默认在中心
+background—attachment：fixed      定位
+ 定位属性： position ： static   默认  没有什么效果 
+                        relative  之后可以使用left   right  top   buttom     对于自身和周围元素没有直接影响   相对定位  脱离文档流 但在文档流中的位置依然占据  设置的位置值相对于自身     定位属性    定义定位方式    既设置left也设置right  只有left起作用   同理  输入top和bottom   只有top起作用
+
+                        absolute  绝对定位   会脱离文档流  后面元素会占用他的位置  设置的位置值相对有定位属性的父元素   如果都没有就会相对于浏览器窗口  
+
+                        fixed   固定定位  位置值得设定是相对于当前的窗口 
+实现居中
+1.用obsolute；然后top bottom left right全部设置为0   然后margin：auto   可以在浏览器居中        
+2.left：50%   margin-left:盒子长的一半
+  top：50%  margin-top:盒子宽的一半    可以实现居中                                                                                                                                             
+ 类名.标签名>子元素类名[属性]{内容}
+
+
+
+  border—radius：50%  可以把方形变成圆形   可以写border-top-left-radius等四个值
+
+
+
+z-index   图层   表示层级关系    随便设计一个数字   只有设置了定位属性 才有效果
+
+图片精灵（css精灵   雪碧图）技术  在移动端是不能使用的
+1.省去明明麻烦
+2.加载速度就会变快
+
+可以直接在background后面加颜色  路径   重复方式  位置  fixed
+
+
+传输比加载快
+
+
+选择器：
+1.标签选择器，根据指定的标签名选择页面中对应的标签   div  a 
+2.类名选择器，根据指定的类名选择页面中对应的标签 .div   <div class="one">
+
+准备软件   sublime txct   编辑器
+           火狐  谷歌
+
+
+wrapper
+
+
+1.原型设计   axure
+2.ps美工设计
+3.html布局设计
+4.js 使网页具有动态
+5.后台建设 
+
+
+xhtml   比html语法严格
+w3c     外围网联盟  
+行标签         可以在一行显示    不能设置宽高
+font   字体
+em  i   倾斜
+strong  b 加粗
+del   删除线
+块标签    要独占一行   可以设置宽高
+h1-h6  表示一级标题到六级标题   一般用前三级
+
+br  单标签  不用写结束标签   打断  能够打断行标签  换行
+div和span对内容没有任何影响
+
+p   块标签  用来展示段落文字  自带一些外边距  
+C+？   注释   不会影响html的内容
+
+a标签里面tittle=“”  表示注释
+         target=“”  打开一个新网页    
+                 _blank    打开空白网页
+相对地址：把当前地址转换为绝对地址   ./文件夹/文件   把文件夹的名字写到前面
+                                     ../ 表示倒退   倒退到同级能打开
+                         
+
+pre   预格式文本标签  可以展示你在编辑器中编辑的样子 
+html 实体  &ndsp 空格 
+           &lt  小于号 
+           &gt  大于
+           &quot   引号 
+           &amp    &
+           &copy    ? 
+  
+
+img里的alt是说明图片加载失败说的话   tittle 鼠标移上去的时候展示的信息
+行内块级元素  技能在一行显示  也可以设置宽高
+在body中打内容
+  
+图像地图   map标签   里面加个name  <map name="mymap">   img标签里面打usemap=#
+                         然后 在map里面 area   shap=rect  矩形的话     coords=坐标（第一个值xy   第二个值xy）
+                                           circle  圆形      coords=坐标（圆心xy  半径 ）
+
+
+列表标签   1. ul   里面写li   无序列表  加type  设置黑色小圆   square  变方块   disc  黑色实心圆  circle  黑色空心圆
+ 、           2. ol   里面写li   有序列表   type   a  字母排序  A  字母排序   1
+             3.  自定义列表   dl    里面写  dt 章  dd  节 
+   表格    table  可以加宽度 高度   bgcolor  border bordercolor  cellspacing：0（边框合并） cellpadding（单元格内内容左边距）  aline-center  居中     ：  tr   表示一行  里面放  td  ：可以设置colspan  合并单元格   有几列就是几   rowspan  和并行   
+
+  
+锚链接   页面内的跳转     a链接   去掉href   加 name=“”   在顶部的链接中把名字打上就回跳转  #就是对到顶部
+标签的嵌套
+   1.嵌套是不能交叉嵌套
+   2.行标签之间的嵌套顺序不会影响嵌套效果
+   3.行标签一般嵌套在块标签里面 
+
+表单    form  ： 
+  method   默认get   可以改成post          
+                
+          post：安全性比get高   通过头文件提交
+ 
+    表单控件：input：type：用于指定当前表单控件的类型 password 就是小星星    必须要有name属性     radio  表示单选（要有相同的name，如果是性别之类的信息  需要value）    
+    submit  提交   （用vale改名字  id与for对应   id为表单指向）    多选  checkbox ：  需要name   value     file：  上传    reset：充值    button：  空按钮    可以定义功能  size   输入框的长度     maxlength  限定最大长度         readonly  只读属性    disable 禁用  checked   单选中默认被选中               
+
+  value：来指定input的默认值  
+
+
+
+   textarea ：文本区域    要加name   双标签  在里面写字     cols  设置列   rows  设置行  
+
+
+    select： 下拉选项    有name属性  ：里面加option标签       selected   默认被选中    可以输入size属性  说明下拉菜单出现几个 
+   label   有标签把字和input标签包裹起来  点字就能点单选radio     for   可以找到id   扩展标签
+
+    iframe   真窗口（在一个页面打开另一个页面）     src  输入地址  可以设置宽高  可以name     
+
+css中所有的文字属性都会继承
+
+
+ 优先级 ID选择器>类名选择器>标签名选择器>通用选择器>每一个标签的默认样式>继承的样式   越精确的选择器优先级越高
+选择器：1.标签名选择器   div{}      
+        2. 类名选择器       .XXX       class=
+        3.ID选择器  id=“”    只能控制某一个元素    #id名字
+        4.通用选择器   *   表示选择中所有标签
+        5.群组选择器   把标签名用，连接起来     选择器1，选择器2，选择器3{}    
+        6.交叉选择器   标签名.类名    优先级高于类名选择器
+        7.后代选择器  .类名。 标签名   只在这个类名中找标签名
+        8.伪类选择器    在现有的选择器基础上进行二次选择    选择器 ：hover   定义的样式只在鼠标经过的时候起效果    a：hover"text-decoration；color"
+        9.               标签名：first-child   表示所有作为子元素是标签名的第一个子元素  last-child   表示所有作为子元素是标签名的最后一个子元素   ntn-child（第几个）  正着数第几个元素  或者输入even（偶数的意思）  就是偶数个   odd（奇数的意思）   奇数个   还可以写表达式  比如2n  2n-1    还有only-child  就是选中作为子元素是唯一的的那个子元素
+        10.              标签名：first-of-type  标签名作为同类型的子元素的第一个  同理  last-of-type  作为同类型子元素的最后一个
+        11.子选择器      选择某一个标签名的子选择器   标签名>标签名
+        12.              标签1+标签2  说明选择紧邻在标签1后面的标签2
+        13.              标签1~标签2  只要是在标签1后面的标签2都会被选中 
+        14.属性选择器  标签名[属性名字]或者直接写[属性名字]      [name^=a]  表示选择name属性值开始的字符为a的input标签   [name*=ab]  表示name属性的字符里包括a和b  
+           :root   会选择当前文档的根元素  就是html标签
+           ：enmty  选择当前内容为空的元素
+          
+
+ 
+
+ 网页的内容与样式分离
+
+
+cursor   用来控制鼠标样式
+
+
+
+
+删除切片用切片选择工具  然后右键删除
+
+
+行元素加float之后可以设置宽高  然后加padding可以让A链接左右的空白都可以点
+
+
+
+想让子元素往父元素下面走  给父元素设置一个上边框或者是内边距（给子元素设置外边距不行）  如果子元素有浮动属性就不会有这个问题   如果该子元素不是第一个子元素就不会出现这个问题
+
+
+
+边框样式：
+1.solid  实线（常用）
+2.none  无样式
+3.dotted 点线
+4；dashed：虚线
+5.double 双线
+6.groove 槽线
+7.ridge 脊线
+8.inset  内凹
+9.outset 外凸 
+
+
+
+
+
+H5语法规则：1.必须小写
+            2.属性值可以不加引号
+            3.可以省略一些标签
+            4.某些结束标签可以省咧
+
+新增标签：块标签：
+          1.section   用于定义一节标签  跟div是一样的  用div 的地方都可以换
+          2.header  用于放网页的头部
+          3。footer  用于放网页的底部
+          4.nav 用来放置菜单导航和链接导航的标签
+          5.articke  一般用于显示一篇文章的主题内容
+          6.hgroup  用于打包h1 h2 等标签
+          7.aside  用于表达 标记 侧边栏的效果
+          8.figure  便签规定独立的流内容   里面写figcaption标签  用来写标题  可以放置一些音频视频内容  有默认的外边距
+          9.code   用于放置代码
+          行标签：
+          1.meter  可以定义属性min max  value  I表示比例关系
+          2.time  表示时间  可以放datatime  用于强调
+          3.progress  用来表示进度条  可以定义属性 可以定义属性min（最大值） max（最小值）  value（当前值）
+
+
+新增属性：  contenteditable 可编辑内容 
+            hidden   隐藏标签
+            
+        
+多媒体标签：1.video 视频标签  src=xxx.mp4    可以在里面写一个source标签  可以引用多种形式          属性：1.autoplay  音频或者视频加载成功后马上播放
+              audio 音频标签  属性与vidio一样                                                            2.controls   可以有视频的开始暂停等按钮
+                                                                                                         3.loop  播放结束后重新开始播放
+                                                                                                         4.muteb   表示默认开始时静音
+                                                                                                          5.preload   表示当前网页加载时 音频是否被加载
+           2.canvas   画布
+
+H5  新增表单：  form可以脱离   只要起一个id  然后表单控件输入form=id
+                  input 1.  sype="email"  写上name属性  用来输入电子邮件    
+                                  url      用来输入网址   要写http
+                                  date  日期    month  只到月份   time  到具体的时刻   week  周
+                                  number  只能输入数字  max  允许最大值  min  允许最小值  step=数字之间的间隔   value  默认值  
+                                  range   也是表示数值  但是是滑块的样子   max  允许最大值  min  允许最小值  step=数字之间的间隔   value  默认值  
+                                  search   表示搜索
+                                  tel   表示电话号码
+                                  color  可以选择颜色
+                           placeholder   默认显示的文字  一输入别的东西就消失
+                           required  加上了之后不填写东西不能提交
+                           pattern="^/d{7}$"    正则验证  只能输入七位数字
+                           autofocus   自动获取焦点  也就是光标在这个框里面闪
+                           autocomplete=“off”  不会提示曾经写过的账号
+                           novalidate=“ture”   可以让上面写的需要填写才能提交的框不需要填写也能提交
+                           multiple   多选   可以输入很多个账号             
+                           formaction   重写表单的地址
+                           formenctype 重写表单的enctype属性
+                           formethod  重写表单的method属性
+                           formnovalidate  重写表单的novalidate属性
+                           formtarget  重写表单的target属性
+                           list  给一个值  然后再里面再写一个标签datalist  id=那个值  再在里面用option  属性写value和label
+                   input：enable   选择当前可以使用的所有表单控件
+                          disabled 表示选择当前所有被禁用的inut
+                          checked  表示选择被选中的表单
+
+
+CSS3新属性：       1.盒子的阴影 box-shadow：20px  10px  5px  15px  #000   就是说阴影往右20px  往下10px  阴影模糊5px 扩展15px  颜色为黑色  在最后面设置inset  就会变成内阴影  在后面加，然后再设置一组数值  可以设置两个阴影  前面的会遮住后面的        
+                   2.文字的阴影  text-shadow   设置的数值和盒子的阴影是一样的   也可以在后面写很多个
+                   3.轮廓线  outline： 跟border的设置方法一样  但是不会占用块的位置       outline-offset:  用来调整轮廓线向外的偏移量    
+                   4.background-size  调整背景图片的大小  可以设置数值  也可以设置百分比  还有cover或者contain    cover的意思是一直放大图片直到把容器放满  contain的意思是等比例放打图片直到把容易占满
+                   5.background-clip：border-box 默认值  padding-box  裁剪内边距  contect-box  裁剪内容
+                   6.background-origin：content-box  定义图片属性的原点位置的背景的相对区域
+                   background-images：url（）；url（）   背景图片可以引用多张  所以 background-position之类的属性也可以动逗号隔开分别设置
+
+ a：link   可以改链接的颜色
+           a：active   表示当鼠标摁下的时候的效果
+           a：visitied  可以设置访问过的链接的颜色
+           input：focus    可以编辑获得焦点的输入框的属性   
+             p：first-line  选择P标签中的第一行文字
+                first-letter  选择P标签中的第一个字母
+
+
+                ：target  鼠标点到哪个标签  哪个标签里面id=#XXX的那个标签就会变属性
+
+           将行元素设置宽高的方法：1 设置float 2. display：block 3.position：realatIve或者absolute  
+
+    ul>li:not(.one)  选择ul的子元素li并且排除掉类名为one的元素
+                 ：before    在内容的之前插入元素
+                 ：after     在内容的之后插入元素
+
+
+
+                border-img-source：url（  ）  给边框插入图片
+                           width              边框图片的宽度                   
+                           slice              边框图片的截取量
+                           repeat：round/repeat   边框图片的摆放方式       
+                   
+                                          
+               box-sizing：border-box   加了这个属性之后再加边框或者内边距就不用计算宽高了
+
+             CSS做渐变：   其实是类似一种图片方式    1.线性渐变   background：linear-gradient（一种颜色，另一种颜色）；  从一种颜色向另一种颜色从上到下渐变   最少设置两个颜色  默认平均分布
+                                                                                                  写to right   就是从左到右渐变
+                                                                                                     XXXdeg  渐变默认从上往下渐变  渐变的基准线与垂直芳香的夹角
+                                                                                                  每一种颜色后面加数字   说明这种颜色在渐变中占的比例
+                                                                                                            也可以在颜色后面加像素
+                                                                                                       transparent    透明  
+                                                                 background：repeating-linear-gradient    重复线性渐变
+                                                                 background：radial-gradient（一种颜色，另一种颜色）；  径向渐变   从里面的一种颜色到外面的另一种颜色
+                                                                                                circle 一种颜色  另一种颜色  可以设置百分比或者像素
+                                                                                                farthest-corner 最远的角  closest-corner  最近的角  farthest-side  最远的边   这三个加载circle后面  不要逗号   
+                                                                 background：repeating-radial-gradient（）； 重复径向渐变                 
+                                                                 transition-property    定义哪些标签可以设置过渡效果    比如在后面写background  就可以让他hover 过渡变颜色
+                                                                 transition-duration：1s；  过渡的时间
+                                                                  transition-timing-function   动画的过渡方式   linear  匀速    ease-in  加速    ease-out  减速  eas-in-out  先加速后减速
+                                                                  贝塞尔曲线     web.chacuo,net
+                                                                 transition-delay:  表示当前动画要延迟多久播放
+
+                         在hover后面加transform属性   ：translate（左右XX像素，上下移动多少像素）  位移   translateX：XXpx    表示向左移动XX像素
+                                                        scale（1.5,1.5） 表示鼠标放上去X和Y方向都扩大1.5倍    或者scaleX（）  scaleY（）   scaleZ（）    缩放
+                                                        rotate（角度deg或者直接写一个数字表示弧度）  旋转  角度*180/π=弧度   
+                                                        想要同时实现多个效果就要写在一起  用空格隔开
+                                                       skew（角度deg）   斜切效果  可以把正方形变成平行四边形  
+                                       transform-origin：数值  百分比  或者具体位置值（left top等）
+                                           perspective   景深
+                                        transform-style    子元素以那种方式呈现
+                                         perspective-origin：设置观察者的位置
+
+
+
+                                         在IE6中：
+                                          容器高度被子元素撑开：1。可以设置overfl：hidden
+                                                                2.设置position： 给父元素安装相对定位  子元素设置绝对定位
+                        容器高度设置一个很小的值也会被自动撑开：1.设置overflow：hidden 
+                                             浮动元素和行元素不能在同一行显示：给行元素加flow
+                                             input里面的元素不会自动居中：自己设置line-height来居中
+ 	                                      IE6 不支持固定定位：  利用js通过绝对定位模拟固定定位   
+          双倍边距（第一个子元素设置相同边距的话会变成双倍边距）:1.将有双倍边距的元素边距设为原来的一半
+                                                                 2，给有双倍边距的元素设置display：inline
+                    margin设置为负值时元素的超出部分会自动隐藏掉：给这个元素设置一个相对定位就行了
+                                           不支持a标签之外的hover效果：使用JS来完成hover效果
+                                          不支持png24：使用png8替换
+                                         
+
+
+
+
+动画的实现方式：@keyframes  名字{0%{transform：rotate{0deg}   100%{transform：rotate{-360deg}}}                                 animation：round 3s linear  infinite
+
+
+CSShack：通过给属性名或者选择器添加一些特定的前缀  从而让属性名和选择器只会被特定的浏览器识别
+
+
+expression（eval（document.documentlement.scrollTOP+300））
+
+*html{
+  background：url{about：blank）；
+  background-attachment：fixed
+}
+
+
+
+
+
+transform-style：当前容器里面的元素以哪种方式来呈现   transform-style：preserve -3d   以3D的方式呈现
+perspective：1000px当前的景深
+
+
+
+transform：translateZ（100px）
+transfom:rotate()  分为三种  rotateX  rotateY   rotateZ
+
+
+
+backface—visvisibility      用来设置背面是否可见  默认能看到  设置hidden为隐藏
+
+prespective-origin ：  数值或者方向   设置观察者的角度
+
+
+
+实现动画：1.定义一个动画  @keyframes  name{0%()  10%()   ...100%()}   百分数的意思是关键帧
+
+
+          2.应用动画    animation属性：1.animation—name：名称（keyframs的name）
+                                       2. -duration   动画的时间
+                                       3.-timing-function：linear  匀速       ease-in  加速    ease-out  减速 或者通过贝塞尔曲线
+                                       4.-delay  第一次延时
+                                       5.-iteration-count    次数    infinite  无限次
+                                       6.-direction：alternate    正向反向交替运动    
+                                       7.-fill-mode:forwards    动画最后停留在最后的状态   默认值 backwards   初始状态
+                                       8.-play-state：paused   暂停动画      running   继续播放动画   一半这两个用于hover里面
+                                       8-hinge              
+
+已入一个字体文件    @font-face
+
+
+
+响应式的布局：就是一个网站能够兼容多个终端，而不是为每个终端做一个特定的版本，也就是说一个页面在多个终端呈现出你想要的效果，能够兼容各个终端
+quedian :代码比较累赘   加载时间长  辨识度不强    
+
+
+
+1. 实现原理：通过 媒体查询  media query  来实现
+            @media+媒体类名（screen或者all）+操作符（条件）{CSS样式}  and 连接  not 排除   only  指限定某种设备类型
+          属性值（条件）  ：1.width    指定当宽度为具体为多少值的时候可见
+                            min-width  当宽度大于某个值的时候可见
+                            max-width  当宽度小于某个值的时候可见     
+          阀值：布局发生变化的临界值                             
+
+
+text-align：justify   两端对齐   自动均匀排布里面的行元素或者行内块级元素   然后需要给这个容器设置  ：after{content="";width:100%;display:inline-block
+
+user-select   只读属性  必须要设置兼容
+
+cursour:default   默认箭头形状
+
+vertical：baseline/middle 垂直对齐  给图片设置  适用于一行内既有图片也有文字的情况  
+           super   调整到上标的位置
+           sub           下标 
+
+
+
+栅格化图层：
+
+
+设备像素：设备屏幕的物理像素  任何设备的物理像素都是固定的 
+
+
+
+逻辑像素：真正用来展示内容的像素数 和设备像素成比例  这个比例称之为DOR  
+
+
+meta name=“viewport” content=“width=device-width”   移动端
+                                 user-scalable=no      禁止缩放
+                                  maximum-scale  最大缩放程度    minimum  最小缩放程度
+                             initial-scale=1
+
+
+git  分布式版本控制系统
+github 基于git原理的一个代码托管平台
+
+
+git clone https://github.com/yanse123/yanse123.github.io.git  然后点回车
+expo.bootcss.com
+
+rem 320px  360px  375px
+
+
+heml{font-size：100px}
+
+@import： url（）
+
+display:flex>   justify-content:start/end/center/space-around/space-between\
+
+
+align-items:center     
