@@ -1,0 +1,44 @@
+ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
+a{text-decoration: none}
+img{border: none}
+*{box-sizing: border-box}
+body{font-family: "微软雅黑";background: #fafafa}
+.header{width: 1200px;height: 91px;margin: 0 auto}
+.header img{width: 98px;height: 91px;float: left;display: block}
+.biaoti{width: 720px;height: 56px;float: right;margin-right: 27px;display: flex;justify-content: space-between;margin-top: 20px}
+.item{width: 101px;height: 56px;line-height: 54px;text-align: center;color: #000;font-size: 24px;}
+.item:hover{border-bottom:2px solid #000 }
+.banner{width: 100%;height: 106px;background:url(../images/background.jpg) no-repeat;border: 1px solid rgba(0,0,0,0)}
+.zhuti{width: 1160px;height: 106px;margin: 0 auto}
+.zhuti1{width: 402px;height: 74px;float: left;margin-top: 20px;color: #fff}
+.neirong1{width: 402px;height: 35px;text-align: center;line-height: 35px;font-size:24px }
+.neirong1 a{display: inline-block;font-size: 24px;color: #fff}
+.neirong1 a:hover{text-decoration: underline}
+.neirong11{display: inline-block;font-size: 36px}
+.neirong12{display: inline-block;font-size: 29px}
+.quanguomendian{font-size: 24px;font-weight: bold;margin-left:10px}
+.neirong2{width: 402px;height: 39px;text-align: center;line-height: 38px}
+.neirong21{font-size: 14px;color: #fff;float: left;margin-left:44px}
+.neirong22{font-size: 14px;color: #fff;float: right;margin-right: 36px}
+.neirong23{font-size: 14px;color: #fff;float: left;margin-left:24px}
+.banner1{width: 100%;height:423px;margin: 0 auto;margin-top: 31px;background: url(../images/banner1_02.png) no-repeat;background-size: contain}
+.banner1-word{width: 1060px;height: 119px;margin: 0 auto;margin-top: 103px;color: #333232;font-size: 24px;font-family:造字工房雅圆（非商用）常规体,微软雅黑； }
+.content{width: 1072px;height: 356px;margin: 0 auto;margin-top: 175px}
+.huodong1{width: 356px;height: 356px;float: right}
+.contentneirong{width: 566px;height: 356px;float: left}
+.contentneirong1{color: #a98e67;font-size: 20px;margin-bottom: 63px}
+.contentneirong2{color: #3b3b3b;font-size: 48px;margin-bottom: 58px}
+.contentneirong3{color: #4d4d4d;font-size: 24px}
+.contentneirong0{width: 566px;height: 356px;float: right}
+.huodong2{width: 356px;height: 356px;float: left}
+.footer{width: 100%;height: 244px;background: #202020;border: 1px solid #202020}
+.footer-top{width: 1073px;height: 139px;margin: 0 auto;margin-top: 27px;border-bottom: 1px solid #fff}
+.footer-item1{width: 386px;height: 111px;float: left}
+.footerneirong1{color: #fff;font-size: 18px;font-weight: bold}
+.footerneirong2{color: #fff;font-size: 12px}
+.footer-item2{width: 386px;height: 132px;float: left;margin-left: 96px;}
+.footer-item3{width: 93px;height: 127px;float: right}
+.footer-item3 img{width: 93px;height: 92px;margin-top: 15px}
+.footer-bottom{width: 1073px;height: 55px;margin: 0 auto;margin-top: 12px;}
+.content1{margin-bottom:132px }
+

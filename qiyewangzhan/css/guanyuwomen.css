@@ -1,0 +1,54 @@
+ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
+a{text-decoration: none}
+img{border: none}
+*{box-sizing: border-box}
+body{font-family: "微软雅黑";background: #fafafa}
+.header{width: 1200px;height: 91px;margin: 0 auto}
+.header img{width: 98px;height: 91px;float: left;display: block}
+.biaoti{width: 720px;height: 56px;float: right;margin-right: 27px;display: flex;justify-content: space-between;margin-top: 20px}
+.item{width: 101px;height: 56px;line-height: 54px;text-align: center;color: #000;font-size: 24px;}
+.item:hover{border-bottom:2px solid #000 }
+.banner{width: 100%;height: 106px;background:url(../images/background.jpg) no-repeat;border: 1px solid rgba(0,0,0,0)}
+.zhuti{width: 1160px;height: 106px;margin: 0 auto}
+.zhuti1{width: 402px;height: 74px;float: left;margin-top: 20px;color: #fff}
+.neirong1{width: 402px;height: 35px;text-align: center;line-height: 35px;font-size:24px }
+.neirong1 a{display: inline-block;font-size: 24px;color: #fff}
+.neirong1 a:hover{text-decoration: underline}
+.neirong11{display: inline-block;font-size: 36px}
+.neirong12{display: inline-block;font-size: 29px}
+.quanguomendian{font-size: 24px;font-weight: bold;margin-left: 30px}
+.neirong2{width: 402px;height: 39px;text-align: center;line-height: 38px}
+.neirong21{font-size: 14px;color: #fff;float: left;margin-left: 18px}
+.neirong22{font-size: 14px;color: #fff;float: right;}
+.about{width: 1002px;height: 61px;margin: 0 auto;margin-top: 134px;border-top: 1px solid #fff}
+.gang1{width: 396px;height: 2px;background: #000;margin-top: 29px;float: left}
+.quan1{width: 11px;height: 11px;border-radius: 50%;background: #000;float: left;margin-top: 23px}
+.content{width: 188px;height:80px;float: left}
+.content1{font-size: 30px;color: #3a3a39;margin-left: 31px;font-weight: bold}
+.content2{font-size:22px;color: #000;margin-left:38px;font-weight: lighter}
+.gang2{width: 396px;height: 2px;background: #000;margin-top: 29px;float: right}
+.quan2{width: 11px;height: 11px;border-radius: 50%;background: #000;float: right;margin-top: 23px}
+.whoami{width: 892px;height: 321px;margin: 0 auto;margin-top: 82px}
+.whoami img{width: 315px;height: 315px;float: left;display: block}
+.c-whoami{width: 437px;position: relative;height: 321px;border: 4px solid #3c3c3c;float: right;padding: 14px 24px;color: #3a3a39;font-size: 18px;line-height:35px}
+.womenshishei{width: 130px;height: 26px;background: #fff;position: absolute;top:-18px;left: 68PX;text-align: center;line-height: 22px;color: #3a3a39;font-size: 24px}
+.linian{width: 955px;height: 356px;margin: 0 auto;margin-top:102px; }
+.womendelinian{font-size: 30px;font-weight:bold;color: #3a3a39}
+.linian1{font-size: 18px;font-weight: lighter;color: #3a3a39;margin-top: 21px}
+.linian2{font-size: 18px;font-weight: lighter;color: #3a3a39;margin-top: 46px}
+.content-2{width: 1095px;height: 699px;margin: 0 auto;margin-bottom: 110px;display: flex;justify-content: space-between}
+.content-2-item{width: 336px;height: 699px}
+.content-2-item img{width: 336px;height: 420px;display: block}
+.content-2-item1{color: #3a3a39;font-size: 30px;font-weight: bold;margin-left: 85px;margin-top: 26px}
+.content-2-item2{color: #3a3a39;font-size: 18px;margin-top: 39px;line-height: 31px}
+.footer{width: 100%;height: 244px;background: #202020;border: 1px solid #202020}
+.footer-top{width: 1073px;height: 139px;margin: 0 auto;margin-top: 27px;border-bottom: 1px solid #fff}
+.footer-item1{width: 386px;height: 111px;float: left}
+.footerneirong1{color: #fff;font-size: 18px;font-weight: bold}
+.footerneirong2{color: #fff;font-size: 12px}
+.footer-item2{width: 386px;height: 132px;float: left;margin-left: 96px;}
+.footer-item3{width: 93px;height: 127px;float: right}
+.footer-item3 img{width: 93px;height: 92px;margin-top: 15px}
+.footer-bottom{width: 1073px;height: 55px;margin: 0 auto;margin-top: 12px;}
+
+
