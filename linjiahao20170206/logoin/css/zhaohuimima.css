@@ -15,7 +15,7 @@ body{font-family: "苹方 中等";background: #f2f2f2}
 .header{width: 100%;height:3.4rem;background: #29a6dc;border: 0.01rem solid #29a6dc;position: relative}
 .denglu{width: 100%;height:0.36rem;font-size: 0.36rem;margin-top: 0.78rem;color:#fff;text-align: center;line-height: 0.36rem}
 .header img{width: 1.75rem;height: 0.96rem;margin: 0 auto;margin-top:0.61rem;display: block}
-.back{width: 0.44rem;height: 0.44rem;background: #fff;border: 0.01rem solid #076cbe;font-size:0.3rem;text-align: center;border-radius: 50%;position: absolute;top:0.068rem;left: 0.025rem;color:#40afdf}
+.back{width: 0.44rem;height: 0.44rem;background: #fff;border: 0.01rem solid #076cbe;font-size:0.3rem;text-align: center;border-radius: 50%;position: absolute;top:0.68rem;left: 0.25rem;color:#40afdf}
 .mingyan{width: 6.16rem;height: 0.64rem;margin: 0 auto;margin-top: 1.46rem;color: #0a196b;font-size: 0.24rem;margin-bottom: 1rem}
 .zuozhe{width: 1.5rem;color: #0a196b;font-size: 0.24rem;margin-left: 4.78rem}
 .xuehao{width: 6.16rem;height: 0.89rem;padding: 0.22rem 0.45rem;color:#3abffd;text-align: left;line-height:0.46rem;border: 0.01rem solid #3a91fd;font-family: iconfont;margin: 0 auto;font-size:0.46rem;border-radius: 0.89rem;margin-bottom: 0.38rem;background: #fff }
