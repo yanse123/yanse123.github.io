@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/linjiahao21070112/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/suoyin.html" />
         <option value="$PROJECT_DIR$/linjiahao20170206/tianmao/CSS/css.css" />
         <option value="$PROJECT_DIR$/linjiahao20170119/Apple.css" />
-        <option value="$PROJECT_DIR$/linjiahao21070112/index.html" />
         <option value="$PROJECT_DIR$/linjiahao20170117/yidiong.html" />
+        <option value="$PROJECT_DIR$/linjiahao21070112/index.html" />
       </list>
     </option>
   </component>
@@ -146,7 +146,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="linjiahao20170117" />
+              <option name="myItemId" value="linjiahao21070112" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -160,7 +160,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="linjiahao20170117" />
+              <option name="myItemId" value="linjiahao21070112" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -253,12 +253,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486548583650</updated>
       <workItem from="1486548592152" duration="4618000" />
-      <workItem from="1486601441240" duration="11158000" />
+      <workItem from="1486601441240" duration="11652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15776000" />
+    <option name="totallyTimeSpent" value="16270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -415,7 +415,7 @@
     <entry file="file://$PROJECT_DIR$/linjiahao21070112/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
