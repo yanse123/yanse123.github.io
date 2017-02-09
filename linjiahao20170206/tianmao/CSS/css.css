@@ -147,13 +147,13 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .tupian{width: 192px;height:192px;background: url(../IMAGES/tupian.jpg) no-repeat;background-size: contain}
 .qiuji{color: #000;font-size: 12px;margin-top: 10px;margin-bottom: 10px}
 .jiage{color: #dd2727;font-size:16px;font-weight: bold}
-.dianpu:hover{border: 1px solid #dd2727}
+.dianpu:hover{outline: 1px solid #dd2727}
 .xihuan{width: 177px;height: 17px;margin: 0 auto;text-align: center;line-height: 17px;margin-bottom: 24px}
 .xihuan1{width: 30px;height: 1px;background: #979797;margin-right:16px;float: left;margin-top: 8px}
 .xihuan2{color: #666;font-size: 16px;font-family: iconfont;float: left}
 .xihuan3{width: 30px;height: 1px;background: #979797;margin-left:8px;float: right;margin-top: 8px}
 .qiudong{width: 1231px;height:319px;margin: 0 auto;display: flex;justify-content: space-between;margin-bottom: 1px }
-.ertong{width: 239px;height: 319px;background:#fff;padding: 2px}
+.ertong{width: 239px;height: 319px;background:#fff;padding: 2px;cursor: pointer}
 .ertong-t{width: 235px;height: 230px;background: url(../IMAGES/yiyi.jpg) no-repeat;background-size: contain}
 .qiuji1{color: #666;font-size: 12px;margin-top: 10px;margin-bottom: 10px}
 .end{width: 130px;height: 70px;margin:13px auto;background: url(../IMAGES/spirt.png) 0 -102px;}
@@ -198,7 +198,7 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .xiezi:hover{background: #c40000}
 .erweima{width: 41px;height: 29px;text-align: center;line-height: 28px;color: #fff;font-size:18px;font-family: iconfont;display: block}
 .erweima:hover{background: #c40000}
-.ertong:hover{border: 1px solid #c40000}
+.ertong:hover{outline: 1px solid #c40000}
 
 
 
