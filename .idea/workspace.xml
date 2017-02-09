@@ -41,16 +41,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170206/logoin/log1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="zhaohuimima.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linjiahao20170206/logoin/zhaohuimima.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,29 +51,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zhaohuimima.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zhaohuimima.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linjiahao20170206/logoin/css/zhaohuimima.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="198" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yidiong.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170117/yidiong.html">
+      <file leaf-file-name="xiugaimima.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linjiahao20170206/logoin/xiugaimima.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao21070112/CSS/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
+            <state relative-caret-position="-150">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xiugaimima.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linjiahao20170206/logoin/css/xiugaimima.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" column="145" selection-start-line="17" selection-start-column="145" selection-end-line="17" selection-end-column="145" />
               <folding />
             </state>
           </provider>
@@ -107,6 +99,8 @@
         <option value="$PROJECT_DIR$/linjiahao20170117/yidiong.html" />
         <option value="$PROJECT_DIR$/linjiahao21070112/index.html" />
         <option value="$PROJECT_DIR$/linjiahao20170206/logoin/css/zhaohuimima.css" />
+        <option value="$PROJECT_DIR$/linjiahao20170206/app.html" />
+        <option value="$PROJECT_DIR$/linjiahao20170206/logoin/css/xiugaimima.css" />
       </list>
     </option>
   </component>
@@ -189,11 +183,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="linjiahao21070112" />
+              <option name="myItemId" value="linjiahao20170206" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CSS" />
+              <option name="myItemId" value="logoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yanse123.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yanse123.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linjiahao20170206" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="logoin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -287,10 +298,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486548583650</updated>
       <workItem from="1486548592152" duration="4618000" />
+      <workItem from="1486601441240" duration="12999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -460,6 +473,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linjiahao20170206/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linjiahao20170206/logoin/zhaohuimima.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -470,6 +491,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linjiahao20170206/logoin/css/zhaohuimima.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="198" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linjiahao20170206/logoin/xiugaimima.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linjiahao20170206/logoin/css/xiugaimima.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="145" selection-start-line="17" selection-start-column="145" selection-end-line="17" selection-end-column="145" />
           <folding />
         </state>
       </provider>
