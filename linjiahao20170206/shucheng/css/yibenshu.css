@@ -17,15 +17,15 @@ body{font-family: "苹方 常规";background: #f2f2f2}
 .content1{width: 6.87rem;height: 5.19rem;margin: 0 auto;margin-top: 0.22rem;background: #fff;box-shadow: 0 0 0.05rem 0 #29a6dc;border: 0.01rem solid #fff}
 .item1{width: 6.21rem;height: 2.68rem;margin: 0 auto;margin-top: 0.59rem}
 .item1 img{display: block;float: left;width: 2.41rem;height: 2.01rem}
-.item1-r{width: 3.43rem;height:2.71rem;float: right }
-.zi1{font-size: 0.28rem;color: #333}
-.zi2{font-size: 0.24rem;color: #3f3f3f}
-.zi22{font-size: 0.18rem;color: #444}
-.zi3{font-size:0.2rem;color: #595959}
-.zi4{font-size: 0.22rem;color:#ffd800;font-family: iconfont}
-.zi5{font-size: 0.18rem;color:#c0c0c0; }
+.item1-r{width: 3.43rem;height:2.41rem;float: right }
+.zi1{font-size: 0.24rem;color: #333}
+.zi2{font-size: 0.20rem;color: #3f3f3f}
+.zi22{font-size: 0.16rem;color: #444}
+.zi3{font-size:0.16rem;color: #595959}
+.zi4{font-size: 0.20rem;color:#ffd800;font-family: iconfont}
+.zi5{font-size: 0.14rem;color:#c0c0c0; }
 .zi6{width: 2.86rem;height: 0.33rem;display: flex;justify-content: space-between}
-.botton{width: 0.86rem;height: 0.33rem;background: #67e479;text-align: center;line-height: 0.3rem;font-size: 0.24rem;color: #fff;border-radius: 0.33rem}
+.botton{width: 0.86rem;height: 0.33rem;background: #67e479;text-align: center;line-height: 0.3rem;font-size: 0.24rem;color: #fff;border-radius: 0.33rem;display: block}
 .item2{width: 5.79rem;height: 0.68rem;margin: 0 auto}
 .item2-l{width:2.6rem;height: 0.68rem;float: left;background: #fff;box-shadow: 0 0 0.05rem 0 #29a6dc;border-radius: 0.68rem;color:#2d2d2d;box-shadow: 0 0 0.05rem 0 #29a6dc;font-size: 0.24rem}
 .item2-l img{width: 0.48rem;height: 0.5rem;margin-top: 0.09rem;margin-left: 0.46rem}
