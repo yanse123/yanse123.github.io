@@ -21,91 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="suoyin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suoyin.html">
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linjiahao20170206/tianmao/CSS/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="236">
+              <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fenlei.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/fenlei.html">
+      <file leaf-file-name="tianmao.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linjiahao20170206/tianmao/tianmao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-450">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fenlei.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/css/fenlei.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-575">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xianxia.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/css/xianxia.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yibenshu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/yibenshu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yibenshu.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/css/yibenshu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xinshuyuedu.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/css/xinshuyuedu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xinshuyuedu.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/xinshuyuedu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xianxia.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/xianxia.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+            <state relative-caret-position="125">
+              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -124,7 +54,6 @@
         <option value="$PROJECT_DIR$/../练习.html" />
         <option value="$PROJECT_DIR$/../lianxi.js" />
         <option value="$PROJECT_DIR$/suoyin.html" />
-        <option value="$PROJECT_DIR$/linjiahao20170206/tianmao/CSS/css.css" />
         <option value="$PROJECT_DIR$/linjiahao20170119/Apple.css" />
         <option value="$PROJECT_DIR$/linjiahao20170117/yidiong.html" />
         <option value="$PROJECT_DIR$/linjiahao21070112/index.html" />
@@ -134,9 +63,10 @@
         <option value="$PROJECT_DIR$/linjiahao20170206/logoin/xiugaimima.html" />
         <option value="$PROJECT_DIR$/linjiahao20170206/shucheng/css/xianxia.css" />
         <option value="$PROJECT_DIR$/linjiahao20170206/shucheng/xianxia.html" />
-        <option value="$PROJECT_DIR$/linjiahao20170206/shucheng/yibenshu.html" />
         <option value="$PROJECT_DIR$/linjiahao20170206/shucheng/css/yibenshu.css" />
         <option value="$PROJECT_DIR$/linjiahao20170206/shucheng/xinshuyuedu.html" />
+        <option value="$PROJECT_DIR$/linjiahao20170206/shucheng/yibenshu.html" />
+        <option value="$PROJECT_DIR$/linjiahao20170206/tianmao/CSS/css.css" />
       </list>
     </option>
   </component>
@@ -192,60 +122,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yanse123.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanse123.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanse123.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linjiahao20170206" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanse123.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanse123.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linjiahao20170206" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shucheng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanse123.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanse123.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linjiahao20170206" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shucheng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,15 +211,15 @@
       <updated>1486548583650</updated>
       <workItem from="1486548592152" duration="4618000" />
       <workItem from="1486601441240" duration="14017000" />
-      <workItem from="1486690785150" duration="2447000" />
+      <workItem from="1486690785150" duration="3708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21082000" />
+    <option name="totallyTimeSpent" value="22343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -449,13 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linjiahao20170206/tianmao/CSS/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="155" column="79" selection-start-line="155" selection-start-column="79" selection-end-line="155" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linjiahao20170119/Apple.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -467,13 +336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linjiahao20170206/tianmao/tianmao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="799" column="53" selection-start-line="799" selection-start-column="53" selection-end-line="799" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -569,10 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/xianxia.html">
+    <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/xinshuyuedu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+        <state relative-caret-position="175">
+          <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -587,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/yibenshu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="525">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -609,10 +471,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/xinshuyuedu.html">
+    <entry file="file://$PROJECT_DIR$/linjiahao20170206/shucheng/xianxia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linjiahao20170206/tianmao/CSS/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linjiahao20170206/tianmao/tianmao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
           <folding />
         </state>
       </provider>

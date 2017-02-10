@@ -74,6 +74,7 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .brand{width: 488px;height: 437px;float:left;background: url(../IMAGES/brand.jpg);background-size: contain}
 .m-brand{width: 743px;height: 437px;float: left;display: flex;flex-wrap: wrap;justify-content: space-around;}
 .xiaoguanggao{width: 123px;height: 108px;background:url(../IMAGES/xiaoguanggao.jpg) center center #fff no-repeat;}
+.xiaoguanggao:hover{background: url(../IMAGES/30_03.png)}
 .chaoliu{width: 1231px;height: 477px;margin: 0 auto;display: flex;justify-content: space-between;margin-bottom: 10px}
 .qianyan{width: 238px;height: 477px;background: #fff;position: relative}
 .honggang{width: 238px;height: 36px;background: #dd2727;color: #fff;text-align: center;line-height: 36px;font-size: 18px;font-family: iconfont;font-weight: bold}
