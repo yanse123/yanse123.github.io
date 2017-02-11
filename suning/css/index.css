@@ -1,0 +1,111 @@
+@import url(phone.css);
+ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
+a{text-decoration: none;display: block;}
+img{border: none}
+*{box-sizing: border-box}
+body{font-family: "微软雅黑";background: #f2f2f2}
+@font-face {
+    font-family: 'iconfont';  /* project id 230431 */
+    src: url('//at.alicdn.com/t/font_3qsid9aoh7low29.eot');
+    src: url('//at.alicdn.com/t/font_3qsid9aoh7low29.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_3qsid9aoh7low29.woff') format('woff'),
+    url('//at.alicdn.com/t/font_3qsid9aoh7low29.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_3qsid9aoh7low29.svg#iconfont') format('svg');
+}
+.header{width: 100%;height: 0.88rem;background:#f9bc09;position: fixed }
+.fenlei{width: 0.76rem;height:0.66rem;margin-top: 0.04rem;margin-left: 0.1rem;float: left;display: block}
+.fenlei1{color: #312e1b;font-size:0.4rem;font-family: iconfont;text-align: center;font-weight: bold}
+.fenlei2{color: #312e1b;font-size:12px;margin-top: 0.02rem;text-align: center}
+.kainiandaxi{  width:70%;;height:0.6rem;font-size: 0.27rem;padding: 0.14rem 0.18rem;color: #a19d9a;font-family: iconfont;background: #fbf2cb;border-radius: 0.05rem;display: block;float: left;margin-top: 0.16rem;margin-left: 0.3rem}
+.banner{width:7.5rem;height:3.2rem;margin:0 auto;background: url(../images/banner.jpg) no-repeat;background-size:cover}
+.gang{width:1.66rem;height: 0.12rem;position: absolute;top:2.88rem;left:5.65rem;display: flex;justify-content: space-between}
+.dian{width: 0.12rem;height: 0.12rem;border-radius: 50%;background:#fff}
+.kind{width: 7.5rem;height:3.02rem;background: #fff;margin: 0 auto;display: flex;flex-wrap: wrap;justify-content: space-between}
+.item{width:1.5rem;height:1.56rem;display: block}
+.item-content{width: 0.8rem;height: 0.8rem;border-radius: 50%;margin-top: 0.1rem;background: #ff8a43;font-family: iconfont;color: #fff;font-size: 0.4rem;text-align: center;line-height: 0.8rem;margin-left: 0.35rem}
+.item-word{color: #7b7f82;font-size:14px;margin-left: 0.2rem;margin-top: 0.16rem}
+.toutiao{width: 7.5rem;height: 1.04rem;background: #fff;margin: 0 auto;margin-top: 0.01rem}
+.toutiao img{width:auto;height:0.51rem;float: left;display: block;margin-top: 0.34rem }
+.toutiaogang{width: 0.02rem;height: 0.4rem;background: #dcdcdc;float:left;margin-top: 0.4rem;margin-left: 0.2rem}
+.toutiao-content{width: 4.14rem;height: 0.6rem;margin-left: 0.4rem;margin-top: 0.1rem;display: block;float: left}
+.toutiao1{color: #333;font-size: 0.2rem;width:auto;height:0.24rem}
+.huangdian{color: #ffc001;font-size: 0.4rem;display:inline;margin-right: 0.08rem}
+.toutiao2{color: #999;font-size: 0.2rem;width:auto;height:0.24rem;margin-top: 0.06rem}
+.miaosha{width: 7.5rem;height: 5.22rem;background: #fff;margin: 0 auto;margin-top: 0.23rem;border: 1px solid #fff}
+.miaosha-top{width: 7.09rem;height: 0.5rem;margin-top: 0.16rem;margin-left: 0.18rem}
+.miaosha-top img{height: 0.5rem;width: auto;float: left;display: block}
+.jiudianchang{color: #fa4b4b;font-size: 12px;margin-left: 0.18rem;margin-top: 0.2rem;float: left}
+.jinru{color: #303030;font-size:16px;font-family: iconfont;float: right;margin-top: 0.08rem}
+.qianghaohuo{width: 0.9rem;height: 0.35rem;border-radius: 0.35rem;background: #ffc001;float: right;margin-right: 0.04rem;color: #783e18;font-size: 12px;margin-top: 0.06rem;text-align: center}
+.miaoshao-top-right{width: 1.4rem;height: 0.6rem;float: right}
+.miaosha-content{width: 7rem;height: 2.36rem;margin-left: 0.2rem;margin-top: 0.16rem;display: flex;justify-content: space-between}
+.miaosha-content1{width: 2.22rem;height: 2.36rem;border: 1px solid #ddd;display: block;background: url(../images/jiangyou.jpg) no-repeat;background-size: contain}
+/*.miaosha-content1 img{width: 2.22rem;height:auto}*/
+.jiage{width:2.22rem;height: 0.7rem;background: #ddd;margin-top: 1.64rem;position: relative;border: 1px solid #ddd }
+.jiagekuang{width: 0.73rem;height: 0.49rem;margin-left: 0.21rem}
+.jiage1{color: #dd0000;font-size: 14px;height:0.21rem;width: 0.73rem }
+.jiage2{color: #999;font-size: 10px;margin-top: 0.15rem;font-weight: bold;margin-left: 0.02rem}
+.zhekou{width: 0.72rem;height: 0.76rem;background: url(../images/downlode.png) no-repeat;background-size: contain ;position: absolute;top:-0.1rem;left: 1.43rem;color: #fff;font-size: 10px;text-align: center;line-height: 0.5rem}
+.guanggao{width: 7.5rem;height:2rem;margin: 0 auto;background:url(../images/guanggao.jpg) no-repeat;background-size: contain;display: block}
+.shenghuojia{width: 7.5rem;height: 0.6rem;background:url(../images/shenghuojia.png) no-repeat #fff;border-bottom:0.01rem solid #f2f2f2;margin: 0 auto;margin-top: 0.23rem;background-size: contain }
+.shoujitongxun{width: 7.5rem;height:2.9rem;margin: 0 auto;background: #fff;border-bottom:1px solid #f2f2f2  }
+.shoujitongxun1{width: 3.75rem;height: 2.9rem;float: left;border-left:0.01rem solid #f2f2f2;background: url(../images/shoujitongxun.jpg) no-repeat;background-size: contain;display: block }
+.shoujitongxun2{width: 3.75rem;height: 2.9rem;float: right}
+.suningchaoshi{width:3.75rem;height: 1.45rem;border-bottom: 0.01rem solid #f2f2f2;background: url(../images/suningchaoshi.jpg) no-repeat;background-size: contain}
+.shizaijiongtu{width:3.75rem;height: 1.45rem;background: url(../images/shizaijiongtu.jpg) no-repeat;background-size: contain}
+.suningjiadian{width: 7.5rem;height:3rem;display: flex;margin: 0 auto ;justify-content: space-between}
+.zhinengshenghuo{width: 1.86rem;height: 3rem;background: url(../images/quyundong.png) no-repeat;background-size: contain}
+.liangfanhui{width: 7.5rem;height: 1.44rem;margin: 0 auto;display: flex}
+.lingjuanzhongxin{width:3.74rem;height: 1.44rem;background: url(../images/lingjuanzhongxin.jpg) no-repeat;background-size: contain }
+.naoyuanxiao{width: 7.5rem;height: 2rem;margin:0 auto;margin-top: 0.23rem;background: url(../images/naoyuanxiao.jpg) no-repeat;background-size: contain;position: relative}
+.naoyuanxiao-daohang{width: 0.56rem;height: 0.12rem;display: flex;justify-content: space-between;position: absolute;top:0.2rem;left:6.74rem }
+.daohangdian{width: 0.12rem;height: 0.12rem;background:#fff;border-radius: 50%}
+.ershou{width: 7.5rem;height: 3rem;margin: 0 auto;display: flex;justify-content: space-between}
+.youpin{width: 3.74rem;height: 3rem;background: url(../images/ershouyoupin.png) no-repeat;background-size: contain;}
+.aihaozhe{width: 3.74rem;height: 3rem;background: url(../images/3C.png) no-repeat;background-size: contain}
+.honghaizi{width: 7.5rem;height: 3rem;margin: 0 auto;display: flex;justify-content: space-between}
+.fuzhuangcheng{width: 7.5rem;height: 2.4rem;margin: 0 auto;display: flex;justify-content: space-between;border-bottom:1px solid #f2f2f2}
+.liaomei{width: 2.49rem;height: 2.4rem;background: url(../images/fuzhuangcheng.png) no-repeat;background-size: contain}
+.tuijian{width: 7.5rem;height: 0.6rem;margin: 0 auto;margin-top: 0.22rem;background: url(../images/haodiantuijian.png) no-repeat #fff;background-size: contain;border-bottom:0.01rem solid #f2f2f2;display: block}
+.tuijian-content{width: 7.5rem;height:4.5rem;margin: 0 auto;background: #fff;border: 0.01rem solid #fff;padding: 0.2rem}
+.tuijian1{width:50%;float: left}
+.gay{height: 1.28rem}
+.gay img{width: 1.08rem;height: 1.08rem;float: left;margin-top: 0.04rem;display: block}
+.daka{width: 1.5rem;height: 1rem;float: left;margin-left: 0.2rem}
+.daka1{width: 1.5rem;height: 0.4rem;color: #333;font-size: 0.3rem;margin-top:0.16rem }
+.daka2{width: 1.5rem;height: 0.4rem;color: #999;font-size: 0.2rem;margin-top: 0.04rem}
+.shoujikuang{width: 3.5rem;height: 2.5rem}
+.sanxing{width: 2.5rem;height: 2.5rem;float: left;background: url(../images/sanxingshouji.jpg) no-repeat;background-size: contain;border: 0.01rem solid #f2f2f2 }
+.xiaosanxing{width:1rem;height:2.5rem;float: right;display: flex;flex-direction: column;justify-content: space-between}
+.xiaoshouji{width:1rem;height:1rem;border:0.01rem solid #f2f2f2;background: url(../images/xiaoshouji.jpg) no-repeat;background-size: contain}
+.tuijian1{width:50%;float: right}
+.gaojidaohang{width: 0.56rem;height: 0.12rem;margin: 0 auto;display: flex;justify-content: space-between;margin-top: 0.2rem}
+.gaojidian{width: 0.12rem;height: 0.12rem;border-radius: 50%;background: #f2f2f2}
+.caininxihuan{width: 7.1rem;height: 0.37rem;margin: 0 auto;margin-top: 0.32rem}
+.caixinxihuangang1{width: 2.43rem;height: 0.01rem;float: left;margin-top:0.18rem;background: #dcdcdc }
+.caixinxihuangang2{width: 2.43rem;height: 0.01rem;float:right;margin-top:0.18rem;background: #dcdcdc }
+.xihuanneirong{width: 2.15rem;line-height: 0.37rem;color: #333;font-size: 0.3rem;float: left;text-align: center}
+.xihuan-icon{color: #ffc001;font-size: 0.3rem;font-family: iconfont}
+.denglu{width:3.4rem;height: 0.3rem;margin: 0 auto;margin-top: 0.1rem;color: #faaa00;font-size: 0.3rem;display: block}
+.denglu-item{width: 7.1rem;height:3.43rem;margin: 0.3rem auto;display: flex;justify-content: space-between }
+.xihuan-item{width: 3.43rem;height: 3.43rem;background: url(../images/meifubao.jpg) no-repeat;background-size: contain}
+.kehuduan{width: 7.5rem;height: 1.5rem;background: url(../images/xiazai.jpg) no-repeat;background-size: contain;margin: 0.2rem auto;display: block}
+.footer{width: 100%;background: #fff;border-top: 1px solid #fff;height:1.65rem}
+.diannaoban{width: 100%;height: 0.3rem;display: flex;justify-content: space-between}
+.banben{width: 20%;height: 0.3rem;text-align: center;font-size:0.24rem;line-height: 0.3rem;border-right:0.01rem solid #ddd;color: #333;margin-top: 0.34rem }
+.banben:nth-child(5){border:none }
+.banquan{color: #909090;font-size: 0.28rem;margin: 0 auto;margin-top:0.48rem;width:6.8rem}
+.fixed{width: 100%;height: 1rem;position: fixed;bottom: 0;background: #fff}
+.index{width: 20%;height: 1rem;color: #333;font-size: 0.4rem;text-align: center;line-height: 0.5rem;font-family: iconfont;float: left}
+
+
+
+
+
+
+
+
+
+
+
+
