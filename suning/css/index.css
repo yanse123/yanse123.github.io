@@ -13,7 +13,7 @@ body{font-family: "微软雅黑";background: #f2f2f2}
     url('//at.alicdn.com/t/font_3qsid9aoh7low29.svg#iconfont') format('svg');
 }
 .header{width: 100%;height: 0.88rem;background:#f9bc09;position: fixed }
-.fenlei{width: 0.76rem;height:0.66rem;margin-top: 0.04rem;margin-left: 0.1rem;float: left;display: block}
+.fenlei{width: 0.84rem;height:0.66rem;margin-top: 0.04rem;margin-left: 0.1rem;float: left;display: block}
 .fenlei1{color: #312e1b;font-size:0.4rem;font-family: iconfont;text-align: center;font-weight: bold}
 .fenlei2{color: #312e1b;font-size:12px;margin-top: 0.02rem;text-align: center}
 .kainiandaxi{  width:70%;;height:0.6rem;font-size: 0.27rem;padding: 0.14rem 0.18rem;color: #a19d9a;font-family: iconfont;background: #fbf2cb;border-radius: 0.05rem;display: block;float: left;margin-top: 0.16rem;margin-left: 0.3rem}
@@ -27,7 +27,7 @@ body{font-family: "微软雅黑";background: #f2f2f2}
 .toutiao{width: 7.5rem;height: 1.04rem;background: #fff;margin: 0 auto;margin-top: 0.01rem}
 .toutiao img{width:auto;height:0.51rem;float: left;display: block;margin-top: 0.34rem }
 .toutiaogang{width: 0.02rem;height: 0.4rem;background: #dcdcdc;float:left;margin-top: 0.4rem;margin-left: 0.2rem}
-.toutiao-content{width: 4.14rem;height: 0.6rem;margin-left: 0.4rem;margin-top: 0.1rem;display: block;float: left}
+.toutiao-content{width: 4.2rem;height: 0.6rem;margin-left: 0.4rem;margin-top: 0.1rem;display: block;float: left}
 .toutiao1{color: #333;font-size: 0.2rem;width:auto;height:0.24rem}
 .huangdian{color: #ffc001;font-size: 0.4rem;display:inline;margin-right: 0.08rem}
 .toutiao2{color: #999;font-size: 0.2rem;width:auto;height:0.24rem;margin-top: 0.06rem}
