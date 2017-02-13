@@ -31,21 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/suning/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="391" column="43" selection-start-line="391" selection-start-column="43" selection-end-line="391" selection-end-column="43" />
+            <state relative-caret-position="1477">
+              <caret line="391" column="40" selection-start-line="391" selection-start-column="40" selection-end-line="391" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/suning/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="90" column="78" selection-start-line="90" selection-start-column="78" selection-end-line="90" selection-end-column="78" />
+              <caret line="90" column="93" selection-start-line="90" selection-start-column="93" selection-end-line="90" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -97,8 +97,8 @@
         <option value="$PROJECT_DIR$/linjiahao20170206/tianmao/CSS/css.css" />
         <option value="$PROJECT_DIR$/../练习.html" />
         <option value="$PROJECT_DIR$/../lianxi.js" />
-        <option value="$PROJECT_DIR$/suning/css/index.css" />
         <option value="$PROJECT_DIR$/suning/index.html" />
+        <option value="$PROJECT_DIR$/suning/css/index.css" />
       </list>
     </option>
   </component>
@@ -278,12 +278,12 @@
       <workItem from="1486690785150" duration="4902000" />
       <workItem from="1486734312739" duration="108000" />
       <workItem from="1486829157765" duration="592000" />
-      <workItem from="1486946602192" duration="2282000" />
+      <workItem from="1486946602192" duration="2608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26519000" />
+    <option name="totallyTimeSpent" value="26845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -595,18 +595,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suning/css/index.css">
+    <entry file="file://$PROJECT_DIR$/suning/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="90" column="78" selection-start-line="90" selection-start-column="78" selection-end-line="90" selection-end-column="78" />
+        <state relative-caret-position="1477">
+          <caret line="391" column="40" selection-start-line="391" selection-start-column="40" selection-end-line="391" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suning/index.html">
+    <entry file="file://$PROJECT_DIR$/suning/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="391" column="43" selection-start-line="391" selection-start-column="43" selection-end-line="391" selection-end-column="43" />
+        <state relative-caret-position="225">
+          <caret line="90" column="93" selection-start-line="90" selection-start-column="93" selection-end-line="90" selection-end-column="93" />
           <folding />
         </state>
       </provider>
