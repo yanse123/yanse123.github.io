@@ -6,6 +6,14 @@ input,a{text-decoration: none;}
 body{/*font-size: 12px;*/font-family:"Helvetica Neue","Helvetica";
 background: #ffffff;position: relative;}
 *{box-sizing: border-box;}
+@font-face {
+    font-family: 'iconfont';  /* project id 235321 */
+    src: url('//at.alicdn.com/t/font_e4iiekbkbcjfko6r.eot');
+    src: url('//at.alicdn.com/t/font_e4iiekbkbcjfko6r.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_e4iiekbkbcjfko6r.woff') format('woff'),
+    url('//at.alicdn.com/t/font_e4iiekbkbcjfko6r.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_e4iiekbkbcjfko6r.svg#iconfont') format('svg');
+}
 /*顶部*/
 .top{
      width: 100%;height: 1.28rem;
@@ -22,7 +30,7 @@ background: #ffffff;position: relative;}
     width: 6.87rem;height: 5.19rem;
     margin: 0 auto;margin-top: 0.12rem;
     background: #f7faff;border-radius: 0.1rem;
-    box-shadow: 0.3rem 0.3rem 0.05rem  #000 0.3rem;
+    box-shadow: 0rem 0rem 0.05rem 0.05rem #eaeaea ;
     position: relative;
  }
  .shutu{
@@ -169,14 +177,14 @@ background: #ffffff;position: relative;}
     width: 6.9rem;height: 1.54rem;
     margin: 0 auto;margin-top: 0.32rem;
     border-radius: 0.1rem;background: #f6f9fe;
-    position: relative;float: left;
+    position: relative;
     margin-left: 0.3rem;margin-bottom: 0.23rem;
  }
  .yuanfenjieshao3{
     width: 6.9rem;height: 1.54rem;
     margin: 0 auto;
     border-radius: 0.1rem;background: #f6f9fe;
-    position: relative;float: left;
+    position: relative;
     margin-left: 0.3rem;margin-bottom: 0.32rem;
  }
  .renxiang{
@@ -233,11 +241,12 @@ background: #ffffff;position: relative;}
  }
  .quanbu{
     width: 2.22rem;height: 0.39rem;
-    margin-left:2.61rem;background:#29a6dc;
-    border-radius: 0.18rem;float: left;
+    margin:0 auto;background:#29a6dc;
+    border-radius: 0.18rem;
     color: #fff;font-size: 0.2rem;
     line-height: 0.39rem;text-align: center;
     position: relative;margin-bottom: 0.73rem;
+     margin-top:0.66rem ;
  }
  .dian{
     width: 0.07rem;height: 0.07rem;
@@ -263,5 +272,47 @@ background: #ffffff;position: relative;}
     background-size: cover;
     position: absolute;top: 0.24rem;left: 2.57rem;
  }
+.shuping1{
+    width: 4rem;height: 0.58rem;
+    margin-top: 0.36rem;margin-left: 0.48rem;
+}
+.wodeshuqian{width: 7.5rem;height: 1.2rem;border-bottom: 0.03rem dotted #999}
+.shuqiankuang{width: 6.51rem;height: 0.92rem;margin: 0 auto;margin-top: 0.1rem}
+.shuqiankuang img{width: 0.66rem;height: 0.69rem;float: left;display: block}
+.shuqianneirong{width:5rem;height: 0.92rem;float: left;margin-left: 0.2rem }
+.shuqianneirong1{color: #151c2b;font-size: 0.24rem}
+.shuqianneirong2{color: #505050;font-size: 0.18rem;margin-top: 0.02rem}
+.shuqianneirong3{height: 0.2rem}
+.shuqianneirong3-left{color: #888;font-size: 0.12rem;float: left}
+.left11{color:#6797ff;font-family: iconfont }
+.right11{color:#6797ff;font-family: iconfont }
+.shuqianneirong3-right{color: #888;font-size: 0.12rem;float: right}
+.pen3{
+    width: 0.51rem;height: 0.48rem;
+    background: url(../images/5-_03.png) no-repeat;
+    background-size: cover;float: left;
+}
+.zijisuoxiang{width: 6.87rem;height: 0.82rem;margin: 0 auto;margin-top: 0.28rem;background: #fff;box-shadow: 0 0 0.05rem 0.05rem #eaeaea;border-radius: 0.05rem;position: relative;border: 1px solid #fff}
+.suoxiangdian1{width: 0.06rem;height: 0.06rem;border-radius: 50%;background: #d8e637;position: absolute;top:0.16rem;left: 0.18rem}
+.suoxiangdian2{width: 0.06rem;height: 0.06rem;border-radius: 50%;background: #f45e40;position: absolute;top:0.16rem;left: 0.3rem}
+.suoxiangzenzi{color: #666;font-size: 0.22rem;margin-left: 0.58rem;margin-top: 0.3rem}
+.zijisuoxiang2{width: 6.87rem;height:1.13rem;margin: 0 auto;margin-top: 0.28rem;background: #fff;box-shadow: 0 0 0.05rem 0.05rem #eaeaea;border-radius: 0.05rem;position: relative;border: 1px solid #fff}
+.suoxiangdian3{width: 0.06rem;height: 0.06rem;border-radius: 50%;background: #34bfdd;position: absolute;top:0.16rem;left: 0.18rem}
+.suoxiangdian4{width: 0.06rem;height: 0.06rem;border-radius: 50%;background: #34dd5c;position: absolute;top:0.16rem;left: 0.3rem}
+.suoxiangzenzi{color: #666;font-size: 0.22rem;margin-left: 0.58rem;margin-top: 0.16rem}
+.suoxiangriqi{color: #888;font-size: 0.12rem;position: absolute;top: 0.77rem;left:5.6rem }
+.pen4{
+    width: 0.51rem;height: 0.48rem;
+    background: url(../images/5-_07.png) no-repeat;
+    background-size: cover;float: left;
+}
+.maomi{width:6.7rem;height:3.08rem;margin: 0 auto;display: flex;justify-content: space-between;margin-bottom:0.33rem;margin-top: 0.4rem }
+.baiban{width: 2.16rem;height: 3.2rem;background: #fff;border-radius: 0.1rem;box-shadow: 0 0 0.05rem 0.05rem #ccc;position: relative}
+.wenzi1{width: 1.37rem;height: 0.24rem;margin: 0 auto;margin-top: 2.6rem;font-size:10px;color:#333}
+.wenzi2{width: 1.44rem;height: 0.15rem;margin: 0 auto;margin-top:0.05rem;margin-left: 0.56rem;font-size: 8px;color:#999}
+.tupian{width:1.76rem;height: 2.38rem;background: #fff;padding: 0.01rem;position: absolute;top:-0.15rem;left:0.04rem;border-radius: 0.05rem}
+.tupian img{width: 2.08rem;height: 2.78rem;border-radius: 0.05rem}
+.landiankuang{width: 0.47rem;height: 0.08rem;margin: 0 auto;margin-top: 0.29rem;display: flex;justify-content: space-between}
+.landian{width: 0.08rem;height: 0.08rem;border: 0.01rem solid #0090ff;border-radius: 50%}
 
 
