@@ -42,16 +42,28 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .mulu2{width: 1031px;height: 36px;float: right;display: flex;justify-content: space-between;padding: 0 28px}
 .chaoshi{width: 90px;height: 36px;text-align: center;line-height: 36px}
 .chaoshi a{color: #fff;font-family: iconfont}
-.banner{width:100%;height:482px;background:#e8e8e8;position: relative;margin-bottom: 60px }
-.banner img{width:1130px;height: 482px;margin: 0 auto;display: block}
-.daohang{width: 200px;height: 482px;position: absolute;left:59px;top:0;background:rgba(238,229,232,0.5);display: flex;flex-direction: column;justify-content: space-between}
+.banner{width:100%;height:482px;position: relative;margin-bottom: 60px }
+.tupiankuang{transition: all 2s}
+.tupiankuang:nth-child(1){width:100%;height:482px;background:#e8e8e8;position: absolute;z-index: 1;opacity: 1;top:0;left: 0 }
+.tupiankuang:nth-child(1)img{width:1130px;height: 482px;margin: 0 auto;display: block}
+.tupiankuang:nth-child(2){width:100%;height:482px;background:#fd6331;position: absolute;z-index: 0;opacity: 0;top:0;left: 0 }
+.tupiankuang:nth-child(2) img{width:1130px;height: 482px;margin: 0 auto;display: block}
+.tupiankuang:nth-child(3){width:100%;height:482px;background:#39c1ff;position: absolute;z-index: 0;opacity: 0;top:0;left: 0 }
+.tupiankuang:nth-child(3) img{width:1130px;height: 482px;margin: 0 auto;display: block}
+.tupiankuang:nth-child(4){width:100%;height:482px;background:#e8e8e8;position: absolute;z-index: 0;opacity: 0;top:0;left: 0 }
+.tupiankuang:nth-child(4) img{width:1130px;height: 482px;margin: 0 auto;display: block}
+.tupiankuang:nth-child(5){width:100%;height:482px;background:#e8e8e8 ;position: absolute;z-index: 0;opacity: 0;top:0;left: 0}
+.tupiankuang:nth-child(5) img{width:1130px;height: 482px;margin: 0 auto;display: block}
+.tupiankuang:nth-child(6){width:100%;height:482px;background:#f46b27;position: absolute;z-index: 0;opacity: 0;top:0;left: 0}
+.tupiankuang:nth-child(6) img{width:1130px;height: 482px;margin: 0 auto;display: block}
+.daohang{width: 200px;height: 482px;position: absolute;left:59px;top:0;background:rgba(238,229,232,0.5);display: flex;flex-direction: column;justify-content: space-between;z-index: 2}
 .neirong{width: 200px;height: 30px;flex-grow:1;text-align:left;line-height: 30px;color:#000;font-size:14px;font-family: iconfont;padding-left: 14px }
 .neirong a{color: #000;font-size:14px }
 .neirong:hover{background: #fff;color:#fa3c7a}
 .neirong a:hover{color:#fa3c7a}
-.xiaomao{width: 100px;height: 463px;position: absolute;top:10px;right: 80px;background: rgba(0,0,0,0.5);padding-top: 12px}
+.xiaomao{width: 100px;height: 463px;position: absolute;top:10px;right: 80px;background: rgba(0,0,0,0.5);padding-top: 12px;z-index:2}
 .xiaomao:hover{background: rgba(0,0,0,0.8)}
-.xiaomao img{width: 70px;height: 70px}
+.xiaomao img{width: 70px;height: 70px;margin: 0 auto;display: block}
 .nihao{font-size: 12px;color: #fff;text-align: center;margin-top: 10px}
 .qingdenglu{width: 80px;height: 24px;margin: 0 auto;background: #dd2727;border-radius:12px;margin-top: 13px;text-align: center;line-height: 20px }
 .qingdenglu a{color: #fff;font-family: iconfont;font-size: 12px}
@@ -67,9 +79,9 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .tuijian{width: 100px;height: 24px;text-align: center;line-height: 24px;color: #fff;font-size: 12px;background:#676767;margin-bottom: 10px }
 .shengzi {width: 30px;height:30px;border-radius: 50%;}
 .weijin{color: #fff;font-size: 12px;text-align: center}
-.henggang{width: 200px;height: 20px;position: absolute;bottom: 20px;left:579px;display: flex;justify-content: space-between}
+.henggang{width: 200px;height: 20px;position: absolute;bottom: 20px;left:579px;display: flex;justify-content: space-between;z-index: 2}
 .dian{width:20px;height: 20px;border-radius: 50%;background: rgba(0,0,0,0.3)}
-.dian:hover{background: rgba(255,255,255,0.3);border: 2px solid rgba(0,0,0,0.2) }
+.dian:first-child{background: rgba(255,255,255,0.3);border: 2px solid rgba(0,0,0,0.2)}
 .guanggao{width: 1231px;height: 437px;margin: 0 auto;margin-bottom: 13px}
 .brand{width: 488px;height: 437px;float:left;background: url(../IMAGES/brand.jpg);background-size: contain}
 .m-brand{width: 743px;height: 437px;float: left;display: flex;flex-wrap: wrap;justify-content: space-around;}
@@ -182,7 +194,7 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .xuke{margin-top: 5px}
 .gongshang{width: 500px;height: 30px;margin-top: 15px}
 .gongshang img{float: left;margin-left: 14px}
-.fixed{width: 41px;height: 952px;position: fixed;right: 0;top:0;background: #000}
+.fixed{width: 41px;height: 952px;position: fixed;right: 0;top:0;background: #000;z-index: 2}
 .tianmaoicon{width: 41px;height: 32px;color: #fff;font-size:22px;font-family: iconfont;margin-top:90px;text-align: center;line-height: 30px;display: block }
 .tianmaoicon:hover{background: #c40000}
 .gouwuchefixed{width: 41px;height: 100px;margin-top: 16px;display: block}

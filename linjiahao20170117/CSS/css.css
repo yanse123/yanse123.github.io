@@ -13,10 +13,10 @@ body{font-size: 12px;font-family:微软雅黑 }
 .h-right{width: 400px;height: 25px;float: right;}
 .denglu{width: 50px;height: 25px;background: url(../images/denglu1.png) left no-repeat;color: #e80077;float: left;line-height: 25px;}
 .denglu a{color: #e80077}
-.denglu a:hover{color:#25b2fe;background: #fff;width: 50px;height: 25px;box-shadow: 5px #000;background:url(../images/denglu.png) left no-repeat;}
+.denglu a:hover{color:#25b2fe;background: #fff;width: 50px;height: 25px;background:url(../images/denglu.png) left no-repeat;}
 .xiaohenggang{width: 1px;height: 12px;float: left;background: #ececec;margin-right: 1px;margin-top: 6px}
 .shouji{width: 80px;height: 25px;float: left;background: url(../images/shouji.png) left no-repeat;line-height: 25px;}
-.shouji a:hover{color:#25b2fe;background: #fff;width: 80px;height: 25px;box-shadow: 5px #000}
+.shouji a:hover{color:#25b2fe;background: #fff;width: 80px;height: 25px;}
 .h-right img{margin-top: 5px;float: left}
 .h-word{text-align: center;height: 25px;line-height: 25px;margin-right: 1px;float: left;width: 71px}
 .h-word1{text-align: center;height: 25px;line-height: 25px;margin-right: 1px;float: left;width: 80px}
@@ -89,7 +89,10 @@ body{font-size: 12px;font-family:微软雅黑 }
 .jine1 a{color: #ffffff}
 .dajine a:hover{background: #e40077;color: #ffffff}
 #sousuo1{width: 90px;height: 35px;border-radius: 1px;background: #33acfb;color: #fff;margin-left: 95px;cursor: pointer;}
-.gundongtiao{width: 1200px;height: 163px;background: #dfdfdf;margin: 0 auto;margin-bottom: 10px;position: relative;}
+.gundongtiao1{width: 1200px;height: 163px;background: #dfdfdf;margin: 0 auto;margin-bottom: 10px;position: relative;overflow: hidden}
+.guanggaoxiaoguo{width: 3600px;height: 163px;background: #dfdfdf;transition: all 1s}
+.guanggaoxiaoguoxiaotu{width: 1200px;height: 163px;float: left}
+.gundongtiaokuang{width: 1200px;height: 163px;border-left:12px solid #dfdfdf;border-right:12px solid #dfdfdf;position: absolute;top:0;left: 0;z-index: 1 }
 .guanggao{width: 284px;height:143px;margin-top: 10px;margin-left: 12px;background:#fff;float: left}
 .content{width:1200px;height:428px;border: 1px solid #dfdfdf;margin: 0 auto;margin-bottom: 10px }
 .content-top{width: 1200px;height: 49px;border-bottom:1px solid #dfdfdf }
@@ -102,10 +105,10 @@ body{font-size: 12px;font-family:微软雅黑 }
 .xiaoguanggao{width: 299px;height: 189px;border-right:1px solid #dfdfdf;float:left;}
 .xiaoguanggao1{width: 299px;height: 189px;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;float:left }
 .guanggao img{width: 235px;height: 110px;margin-left: 24px;margin-top: 20px}
-.zuo{width:28px;height:35px;position: absolute;top:57px;;left: 0;background: url(../images/zuoyou.gif) 0 0 ;}
-.you{width:28px;height:35px;position: absolute;top:57px;right: 0;background: url(../images/zuoyou.gif) -32px 0}
+.zuo{width:28px;height:35px;position: absolute;top:57px;;left: 0;background: url(../images/zuoyou.gif) 0 0 ;z-index: 2}
+.you{width:28px;height:35px;position: absolute;top:57px;right: 0;background: url(../images/zuoyou.gif) -32px 0;z-index: 2}
 .guanggaokuang{width: 154px;height: 130px;padding-left: 75px;transition:all}
-.guanggaoshang{width: 299px;height: 49px;float: left;color: #333333;font-size: 18px;font-weight: 14px;padding-top: 10px;padding-left: 20px}
+.guanggaoshang{width: 299px;height: 49px;float: left;color: #333333;font-size: 18px;;padding-top: 10px;padding-left: 20px}
 .xiaozi{color: #666666;font-size: 12px}
 .guanggaokuang a:hover{transform:translateX(-10px)}
 .content2{width: 1200px;height: 413px;border: 1px solid #dfdfdf;margin:0 auto;margin-bottom: 10px}
@@ -119,7 +122,7 @@ body{font-size: 12px;font-family:微软雅黑 }
 .page1{width: 44px;height: 58px;background: url(../images/green.gif);position: absolute;right: 30px;top: 18px;color: #fff;font-size: 14px;font-weight: bold;text-align: center;padding-top: 10px}
 .page2{width: 44px;height: 58px;background: url(../images/blue.gif);position: absolute;right: 30px;top: 18px;color: #fff;font-size: 14px;font-weight: bold;text-align: center;padding-top: 10px}
 .page3{width: 44px;height: 58px;background: url(../images/red.gif);position: absolute;right: 30px;top: 18px;color: #fff;font-size: 14px;font-weight: bold;text-align: center;padding-top: 10px}
-.gonggao{width: 1200px;height:38px;border:1px solid #dfdfdf;margin: 0 auto;padding-left: 20px;padding-top:10px;margin-bottom: 10px}
+.gonggao{width: 1200px;height:38px;border:1px solid #dfdfdf;margin: 0 auto;padding-left: 20px;padding-top:10px;margin-bottom: 10px;position: relative}
 .zuo1{color: #666666;float: left;margin-left:8px;font-size:14px}
 .gonggao img{float: left;margin-top: 3px}
 .yingyeting {float: left;color: #0085d0;margin-right: 75px;float: left;font-size:14px} 
@@ -143,7 +146,8 @@ body{font-size: 12px;font-family:微软雅黑 }
 .di5p img{margin-top: 12px;margin-right:5px}
 .di5 a{float: left;color: #666666;margin-top:15px}
 .di5 a:hover{color: #0085d0;text-decoration: underline}
-.xiaojiantou{width:60px;height:20px;margin-left: 1120px}
-.xiaojiantou a{color: #3580ba;float: left;margin-right: 10px;font-weight: bold;font-size: 16px}
+.xiaojiantou{width:60px;height:20px;margin-left: 1120px;position: absolute;top:8px;right: 0}
+.zuo123{color: #3580ba;float: left;margin-right: 10px;font-weight: bold;font-size: 16px;cursor: pointer}
+.you123{color: #3580ba;float: left;margin-right: 10px;font-weight: bold;font-size: 16px;cursor: pointer}
 .re{width: 21px;height: 21px;border-radius: 50%;background: #e40077;position:absolute;left:50px;top:10px;color: #ffffff;font-weight: bold;text-align: center;line-height: 21px}
 
