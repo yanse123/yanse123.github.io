@@ -88,16 +88,125 @@ zuojiantou.onclick=function () {
     youjiantou.onclick=function () {
         gundong()
     }
+   var denglu=document.querySelector(".denglu")
+   var dengluwangshang=document.querySelector(".dengluwangshang")
+    denglu.onmouseover=function () {
+        dengluwangshang.style.display="block"
+    }
+    denglu.onmouseout=function () {
+        dengluwangshang.style.display="none"
+    }
+   var shouji=document.querySelector(".shouji")
+    var dengluwangshang1=document.querySelector(".dengluwangshang1")
+    shouji.onmouseover=function () {
+        dengluwangshang1.style.display="block"
+    }
+    shouji.onmouseout=function () {
+        dengluwangshang1.style.display="none"
+    }
+  var xian=document.querySelector(".xian")
+    var suoyoushengshi=document.querySelector(".suoyoushengshi")
+ xian.onclick=function () {
+     suoyoushengshi.style.display="block"
+ }
+    var xiaokuang=document.querySelectorAll(".xiaokuang")
+    console.log(xiaokuang)
+    var baikuang=document.querySelectorAll(".baikuang")
+    for(let i=0;i<xiaokuang.length;i++){
+        xiaokuang[i].onmouseover=function () {
+
+            baikuang[i].style.height=40+"px"
+        }
+        xiaokuang[i].onmouseout=function () {
+            baikuang[i].style.height="0"
+        }
+        baikuang[i].onmouseover=function () {
+
+            baikuang[i].style.height=40+"px"
+        }
+        baikuang[i].onmouseout=function () {
+            baikuang[i].style.height="0"
+        }
+    }
+    var diandian=document.querySelectorAll(".diandian")
+    var tupiantiao=document.querySelector(".middle-tupian")
+    var abc=1;
+    var numtu1=0;
+    var t2=setInterval(bannermove,3000)
+     function bannermove () {
+         flag=false;
+         tupiantiao.style.transition="all 1s"
+        abc++;
+        if(abc==11){
+            abc=1
+        };
+         if(abc==-1){
+             abc=10
+         }
+        numtu1++;
+        if(numtu1==9){
+            numtu1=0
+        }
+        for(let j=0;j<diandian.length;j++){
+            diandian[j].style.backgroundColor="#caaeb5";
+        }
+        diandian[numtu1].style.backgroundColor="#de006c"
+        tupiantiao.style.marginLeft=-740*abc+"px";
+    }
+    tupiantiao.addEventListener("transitionend",function () {
+                  flag=true;
+                if(abc==10){
+                    tupiantiao.style.transition="none";
+                    tupiantiao.style.marginLeft=-740+"px";
+                    abc=1}
+        if(abc==0){
+            tupiantiao.style.transition="none";
+            tupiantiao.style.marginLeft=-6660+"px";
+            abc=9}
+
+    })
+    var bannerzuo=document.querySelector(".zuojiantou")
+    var banneryou=document.querySelector(".youjiantou")
+    var bigbanner=document.querySelector(".b-middle")
+    bigbanner.onmouseover=function () {
+        clearInterval(t2)
+    }
+    bigbanner.onmouseout=function () {
+        t2=setInterval(bannermove,3000)
+    }
+    banneryou.onclick=function () {
+      if(flag=true){
+        bannermove()}}
+
+    bannerzuo.onclick=function   () {
+      if(flag=true){
+         abc-=2;
+        bannermove()}
+    }
 
 
+        for(let i=0;i<diandian.length;i++){
+            diandian[i].onclick=function () {
+                for(let j=0;j<diandian.length;j++){
+                    diandian[j].style.backgroundColor="#caaeb5";
+                }
+                diandian[i].style.backgroundColor="#de006c"
+i
+        }
+    }
+    var jine=document.querySelectorAll(".jine")
+    for(let i=0;i<jine.length;i++){
+        jine[i].onclick=function () {
+            for(let j=0;j<jine.length;j++){
+                jine[j].style.background="#fff"
+                jine[j].style.color="#666666"
 
+            }
+            jine[i].style.background="#e40077"
+            jine[i].style.color="#fff"
 
-
-
-
-
-
-
+        }
+    }
 
 
 
